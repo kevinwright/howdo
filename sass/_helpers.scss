@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear:both;
+}
+
+.is-hidden {
+  display: none;
+}
+.is-visible {
+  display: block;
+}
