@@ -1,3 +1,24 @@
 .banner {
   background-color: $yellow;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+
+  .banner-header {
+    font-size: 2rem;
+    line-height: 4.5789474rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .banner-sub {
+    font-size: 2.4736842rem;
+    line-height: 3.0526316rem;
+    margin: 1rem 0 1rem 0;
+  }
 }
