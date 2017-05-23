@@ -1,0 +1,21 @@
+footer {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+}
+
+@media (max-width: 45em) {
+
+  footer {
+    margin: 0 1.5rem;
+  }
+
+}
