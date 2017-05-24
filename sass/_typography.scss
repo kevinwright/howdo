@@ -36,3 +36,17 @@ body {
   border-bottom: $yellow 3px solid;
   display:inline-block;
 }
+
+a {
+  color: #282f33;
+  border-bottom: $yellow 3px solid;
+  display:inline-block;
+  text-decoration: none;
+}
+
+footer {
+  a {
+    color: $lightgrey;
+    border: none;
+  }
+}
