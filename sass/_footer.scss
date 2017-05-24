@@ -1,7 +1,9 @@
 footer {
-  margin: 1rem 0;
+  padding: 1rem 0;
   font-size: 1rem;
   line-height: 1.4;
+  background-color: $greyblue;
+  color: $lightgrey;
 
   li {
     list-style: none;
@@ -10,12 +12,28 @@ footer {
   ul {
     padding: 0;
   }
+
+  a {
+    color: $lightgrey;
+  }
+}
+
+.icons {
+    display: flex;
+
+    li {
+      padding-right: 0.6rem;
+    }
+}
+
+.copywrite {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 45em) {
 
   footer {
-    margin: 0 1.5rem;
+    padding: 0 1.5rem;
   }
 
 }
