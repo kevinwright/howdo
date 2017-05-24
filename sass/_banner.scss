@@ -8,7 +8,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 2.5rem;
+  padding: 0 4rem;
+  color: #000;
 
   .banner-header {
     font-size: 2rem;
@@ -19,7 +20,7 @@
   .banner-sub {
     font-size: 4rem;
     line-height: 5rem;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 4rem 0;
   }
 }
 
