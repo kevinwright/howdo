@@ -8,9 +8,14 @@ main {
 }
 
 .body-section {
-  margin: 1rem 0;
+  margin: 2rem 0;
   font-size: 1.5rem;
   line-height: 1.4;
+  padding: 0 0 4rem 0;
+}
+
+.body-section:nth-child(-n+3) {
+  border-bottom: $greyblue solid 5px;
 }
 
 .no-margin {
