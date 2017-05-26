@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  border-bottom: $yellow 5px solid;
+}
+
 footer {
   a {
     color: $lightgrey;
