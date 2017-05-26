@@ -11,18 +11,30 @@
   padding: 0 4rem;
   color: #000;
 
+  .circle {
+    z-index: 1;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 50%;
+    border: rgba(255, 255, 255, 0.62) 5px solid;
+  }
+
   .banner-header {
+    z-index: 2;
     font-size: 2rem;
     line-height: 4.5789474rem;
     margin: 1rem 0 0 0;
   }
 
   .banner-sub {
+    z-index: 2;
     font-size: 4rem;
     line-height: 5rem;
     margin: 1rem 0 4rem 0;
   }
 }
+
+
 
 @media (max-width: 45em) {
 
