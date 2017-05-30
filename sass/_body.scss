@@ -8,18 +8,17 @@ main {
 }
 
 .body-section {
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 1.5rem;
   line-height: 1.4;
-  padding: 0 0 4rem 0;
 }
 
-.body-section:nth-child(-n+3) {
-  border-bottom: $greyblue solid 5px;
-}
+// .body-section:nth-child(-n+3) {
+//   border-bottom: $greyblue solid 5px;
+// }
 
 .no-margin {
-  margin-top: 0.4rem;
+  margin: 0.4rem 0;
 }
 
 @media (max-width: 45em) {
