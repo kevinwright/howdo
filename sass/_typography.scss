@@ -5,6 +5,7 @@ body {
 }
 
 .heading-xlarge {
+  font-family: "futura-pt-bold",sans-serif;
   font-size: 3.8947368rem;
   line-height: 4.5789474rem;
   margin-top: 1.5263158rem;
@@ -12,6 +13,7 @@ body {
 }
 
 .heading-large {
+  font-family: "futura-pt-bold",sans-serif;
   font-size: 2.4736842rem;
   line-height: 3.0526316rem;
   margin-top: 1.5263158rem;
@@ -19,20 +21,23 @@ body {
 }
 
 .heading-medium {
-  font-size: 1.8rem;
+  font-family: "futura-pt-bold",sans-serif;
+  font-size: 2rem;
   line-height: 3.0526316rem;
   margin-top: 1.5263158rem;
   margin-bottom: 0rem;
 }
 
 .heading-small {
+  font-family: "futura-pt-bold",sans-serif;
   font-size: 1.4rem;
   line-height: 1.5263158rem;
   margin-top: 1.5263158rem;
   margin-bottom: 0rem;
 }
 
-.heading-yellow {
+.heading-blue {
+  font-family: "futura-pt-bold",sans-serif;
   box-shadow: inset 0 -2px 0 0 $greyblue;
   display:inline-block;
 }
@@ -48,7 +53,7 @@ a {
 
 a:hover {
   border: none;
-  box-shadow: inset 0 -12px 0 0 $yellow;
+  box-shadow: inset 0 -31px 0 0 $yellow;
 }
 
 footer {
