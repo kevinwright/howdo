@@ -9,10 +9,12 @@
   padding: 0 4rem;
 
   .banner-header {
-    font-size: 1.8rem;
+    font-family: "futura-pt-bold",sans-serif;
+    font-size: 2rem;
     line-height: 4.5789474rem;
     margin: 1rem 0 0 0;
-    letter-spacing: 4px;
+    // letter-spacing: -1px;
+    text-transform: uppercase;
   }
 
   .banner-sub {
@@ -35,8 +37,8 @@
     }
 
     .banner-sub {
-      font-size: 3rem;
-      line-height: 3.6rem;
+      font-size: 2.8rem;
+      line-height: 3.4rem;
       margin: 1rem 0 4rem 0;
     }
   }

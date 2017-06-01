@@ -30,6 +30,14 @@ body {
 
 .heading-small {
   font-family: "futura-pt-bold",sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5263158rem;
+  margin-top: 1.5263158rem;
+  margin-bottom: 0rem;
+}
+
+.heading-xsmall {
+  font-family: "futura-pt-bold",sans-serif;
   font-size: 1.4rem;
   line-height: 1.5263158rem;
   margin-top: 1.5263158rem;
@@ -38,17 +46,21 @@ body {
 
 .heading-blue {
   font-family: "futura-pt-bold",sans-serif;
-  box-shadow: inset 0 -2px 0 0 $greyblue;
   display:inline-block;
 }
 
-a {
+a, .link {
+  cursor: pointer;
   color: $greyblue;
   box-shadow: inset 0 -2px 0 0 $yellow;
   display:inline-block;
   text-decoration: none;
   transition: all .2s ease-in-out;
   padding: 0 3px;
+}
+
+.link::after {
+  content: url('../images/chevron.svg');
 }
 
 a:hover {
@@ -66,4 +78,20 @@ footer {
     color: $lightgrey;
     box-shadow: none;
   }
+}
+
+.more-list {
+  border-left: $midgrey 3px solid;
+  margin-left: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+@media (max-width: 45em) {
+
+  .heading-medium {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-top: 0.2rem;
+  }
+
 }

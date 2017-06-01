@@ -14,10 +14,6 @@ main {
   line-height: 1.4;
 }
 
-// .body-section:nth-child(-n+3) {
-//   border-bottom: $greyblue solid 5px;
-// }
-
 .no-margin {
   margin: 0.4rem 0;
 }
@@ -26,6 +22,10 @@ main {
 
   main {
     padding: 0 1.5rem;
+  }
+
+  .body-section {
+    font-size: 1.2rem;
   }
 
 }
