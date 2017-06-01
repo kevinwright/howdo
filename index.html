@@ -53,7 +53,15 @@
 						<h3 class="heading-small heading-blue">User-centred</h3>
 						<p class="no-margin">We research with your users and customers to understand what they need. By getting to know the people that use your products, we can help you make better decisions.</p>
 						<h3 class="heading-small heading-blue">Product design</h3>
-						<p class="no-margin">We prototype to test ideas. And quickly learn what is and isn’t working so we can design simple, beautifully crafted products and services.</p>
+						<p class="no-margin">We prototype to test ideas. And quickly learn what is and isn’t working so we can design simple, beautifully crafted products and services. <span class="link" data-toggle="next">More about what we offer </span></p>
+
+						<div class="hidden more-list">
+							<h4 class="heading-small">Pause</h3>
+							<p>Teams can get stuck in delivering, and lose sight of a projects goals - we help teams pause and make sure designs are aligned with customer needs</p>
+							<h4 class="heading-small">Usability</h3>
+							<p>We know that not every organisation has design resource so we offer a usability review of products and services</p>
+						</div>
+
 						<h3 class="heading-small heading-blue">Expert advice</h3>
 						<p class="no-margin">Sometimes organisations need direction and advice from experts. We have a lot of experience designing products, writing content and developing software.</p>
 					</div>
@@ -85,10 +93,6 @@
 					<div class="medium-12 large-12 columns">
 						<p>
 							Use good design to change the world
-							<ul>
-								<li>Email us: <a href="mailto:info@justgooddesign.co" target="_blank">info@justgooddesign.co</a></li>
-								<li>Tweet us: <a href="http://www.twitter.com/_justgooddesign" target="_blank">@_justgooddesign</a></li>
-							</ul>
 						</p>
 						<ul class="icons">
 							<li>
@@ -122,12 +126,26 @@
 								</a>
 							</li>
 						</ul>
-						<p class="copywrite">
+						<span class="copywrite">
 							&copy; 2017 | Hand crafted
-						</p>
+						</span>
 					</div>
 				</div>
 			</footer>
+
+			<script>
+        var $ = document.querySelectorAll.bind(document);
+        var on = function (eventName, element, callback) {
+            element.addEventListener(eventName, callback);
+        };
+
+        // when you click on an element with data-toggle="next"
+        on('click', $('[data-toggle="next"]')[0], function () {
+            // get the next element, and toggle class hide on it
+            this.nextElementSibling.classList.toggle('hidden');
+        });
+    	</script>
+
 
 </body>
 </html>
