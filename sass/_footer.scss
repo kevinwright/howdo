@@ -4,6 +4,11 @@ footer {
   line-height: 1.4;
   background-color: $greyblue;
   color: $lightgrey;
+  // border-top: $yellow 4px solid;
+
+  p {
+    margin-bottom: 3rem;
+  }
 
   li {
     list-style: none;
@@ -13,7 +18,7 @@ footer {
     padding: 0;
   }
 
-  
+
 }
 
 .icons {
@@ -25,7 +30,7 @@ footer {
 }
 
 .copywrite {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 @media (max-width: 45em) {
