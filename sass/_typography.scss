@@ -66,8 +66,14 @@ a, .link {
 
 .more-list {
   // border-left: $midgrey 5px solid;
-  padding: 0.3rem 0.75rem;
+  margin-top: 1rem;
+  padding: 0.05rem 0.75rem;
   background-color: rgba($yellow, 0.35);
+
+  p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
 }
 
 a:hover {
@@ -95,6 +101,10 @@ footer {
     font-size: 1.8rem;
     line-height: 2.2rem;
     margin-top: 0.2rem;
+  }
+
+  .link {
+    font-size: 1.1rem;
   }
 
 }
