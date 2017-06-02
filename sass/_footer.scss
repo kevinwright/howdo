@@ -25,7 +25,15 @@ footer {
     display: flex;
 
     li {
-      padding-right: 0.8rem;
+      padding-right: 0.6rem;
+    }
+
+    path {
+      fill: $midgrey;
+    }
+
+    path:hover {
+      fill: $yellow;
     }
 }
 
@@ -36,7 +44,7 @@ footer {
 @media (max-width: 45em) {
 
   footer {
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
   }
 
 }
