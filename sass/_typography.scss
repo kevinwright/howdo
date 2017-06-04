@@ -61,8 +61,19 @@ a, .link {
 }
 
 .link::after {
-  content: url('../images/chevron.svg');
+  content: url('../images/add.svg');
 }
+
+.link .drop::after {
+  content: url('../images/add.svg');
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
 
 .more-list {
   // border-left: $midgrey 5px solid;
