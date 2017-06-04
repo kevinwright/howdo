@@ -144,7 +144,7 @@
 			on('click', $('[data-toggle]'), function () {
 				var method = this.getAttribute('data-toggle');
 				switch (method) {
-					// get the next element, and toggle class hide on it
+					// get the next element, and toggle class hidden on it
 					case 'next': this.nextElementSibling.classList.toggle('hidden'); break;
 					default: $('[data-toggle-target="' + method + '"]')[0].classList.toggle('hidden');
 				}
