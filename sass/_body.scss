@@ -3,9 +3,12 @@ body {
 }
 
 main {
-  // margin: 0 4rem;
   padding: 1rem 4rem 2rem 4rem;
   border-top: 6px $yellow solid;
+}
+
+.sub-page {
+  padding: 0;
 }
 
 .body-section {
@@ -17,6 +20,18 @@ main {
 .no-margin {
   margin: 0.4rem 0;
 }
+
+// .left, .right {
+//   padding: 4rem;
+// }
+//
+// .left {
+//   background-color: $midgrey;
+// }
+//
+// .right {
+//   background-color: $darkgrey;
+// }
 
 @media (max-width: 45em) {
 

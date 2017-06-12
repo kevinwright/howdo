@@ -21,9 +21,24 @@
     font-family: "europa",sans-serif;
     font-size: 4.4rem;
     line-height: 5.5rem;
-    margin: 1rem 0 4rem 0;
+    margin: 1rem 0 0 0;
   }
 }
+
+.sub-page-banner {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+  border-bottom: 6px $greyblue solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+// .sub-page-title {
+//
+// }
 
 
 @media (max-width: 45em) {
