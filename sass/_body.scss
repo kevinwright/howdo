@@ -4,7 +4,7 @@ body {
 
 main {
   padding: 1rem 4rem 2rem 4rem;
-  border-top: 6px $yellow solid;
+  border-top: 6px $orange solid;
 }
 
 .sub-page {
@@ -20,18 +20,6 @@ main {
 .no-margin {
   margin: 0.4rem 0;
 }
-
-// .left, .right {
-//   padding: 4rem;
-// }
-//
-// .left {
-//   background-color: $midgrey;
-// }
-//
-// .right {
-//   background-color: $darkgrey;
-// }
 
 @media (max-width: 45em) {
 

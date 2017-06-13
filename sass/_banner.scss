@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   height: 70vh;
-  border-bottom: 6px $greyblue solid;
+  border-bottom: 6px $red solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,19 +25,16 @@
   }
 }
 
-.sub-page-banner {
-  margin-left: auto;
-  margin-right: auto;
-  height: 40vh;
-  border-bottom: 6px $greyblue solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0 4rem;
-}
-
-// .sub-page-title {
-//
+// .banner-header::before {
+//   border-radius: 50%;
+//   width: 30px;
+// 	height: 30px;
+//   background: -webkit-linear-gradient(to bottom, $red, $orange);
+//   background: linear-gradient(to bottom, $red, $orange);
+//   content: "";
+//   position: absolute;
+//   top: 37px;
+//   left: 25px;
 // }
 
 
@@ -54,7 +51,6 @@
     .banner-sub {
       font-size: 2.8rem;
       line-height: 3.4rem;
-      margin: 1rem 0 4rem 0;
     }
   }
 
