@@ -26,6 +26,10 @@
     content: url('../images/logo.svg');
   }
 
+  .logo-fade {
+    opacity: 0;
+  }
+
   .banner-sub {
     font-family: "europa",sans-serif;
     font-size: 4.4rem;
@@ -34,18 +38,6 @@
     z-index: 2;
   }
 }
-
-// .banner-header::before {
-//   border-radius: 50%;
-//   width: 30px;
-// 	height: 30px;
-//   background: -webkit-linear-gradient(to bottom, $red, $orange);
-//   background: linear-gradient(to bottom, $red, $orange);
-//   content: "";
-//   position: absolute;
-//   top: 37px;
-//   left: 25px;
-// }
 
 
 @media (max-width: 45em) {
