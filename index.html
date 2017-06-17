@@ -8,8 +8,11 @@
 	<meta name="keywords" content="design, ux, ui, interface, interaction">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="images/icon.png">
 	<meta name="twitter:site" content="@_justgooddesign">
 	<meta name="twitter:creator" content="@_justgooddesign">
+	<meta name="twitter:title" content="Just Good">
+	<meta name="twitter:description" content="Use good design to change the world">
 	<meta property="og:url" content="http://www.justgooddesign.co">
 	<meta property="og:title" content="Just Good design">
 	<meta property="og:description" content="Use good design to change the world">
@@ -23,7 +26,7 @@
 <body>
 
 		<div class="banner" role="banner">
-			<div class="logo"></div>
+			<div class="logo" id="logo"></div>
 			<p class="banner-header">Just Good</h1>
 			<h1 class="banner-sub">Good design<br>
 			can change the world</p>
@@ -141,21 +144,23 @@
 			</footer>
 
 			<script>
+			// progressive disclosure
 			var $ = document.querySelectorAll.bind(document);
 			var on = function (eventName, elements, callback) {
 				Array.prototype.forEach.call(elements, function (element) {
 					element.addEventListener(eventName, callback);
 				});
 			};
-			// when you click on an element with data-toggle
 			on('click', $('[data-toggle]'), function () {
 				var method = this.getAttribute('data-toggle');
 				switch (method) {
-					// get the next element, and toggle class hidden on it
-					case 'next': this.nextElementSibling.classList.toggle('hidden'); break;
-					default: $('[data-toggle-target="' + method + '"]')[0].classList.toggle('hidden');
+				case 'next': this.nextElementSibling.classList.toggle('hidden'); break;
+				default: $('[data-toggle-target="' + method + '"]')[0].classList.toggle('hidden');
 				}
 			});
+
+			// moving logo on scroll
+			
 			</script>
 
 
