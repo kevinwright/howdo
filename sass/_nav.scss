@@ -1,13 +1,22 @@
-nav {
+.navigation {
   position: absolute;
-  top: 24px;
+  top: 20px;
   right: 0;
-  // display: flex;
-  // justify-content: space-between;
   padding: 0 2.5rem;
+  z-index: 5;
+
+  .active {
+    font-weight: 800;
+  }
+
+  ul {
+    padding: 0;
+  }
 
   li {
     list-style: none;
+    display: inline;
+    padding-left: 1rem;
   }
 
   a {
