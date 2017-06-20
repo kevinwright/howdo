@@ -4,7 +4,6 @@ footer {
   line-height: 1.4;
   background-color: $greyblue;
   color: $lightgrey;
-  // border-top: $orange 4px solid;
 
   p {
     margin-bottom: 1.5rem;
@@ -22,21 +21,18 @@ footer {
 }
 
 .icons {
-    display: flex;
     margin-top: 0.2rem;
 
     li {
       padding-right: 0.6rem;
+      padding-top: 0.4rem;
     }
 
     path {
       fill: $midgrey;
     }
-
-    path:hover {
-      fill: $orange;
-    }
 }
+
 
 .copywrite {
   font-size: 0.75rem;
