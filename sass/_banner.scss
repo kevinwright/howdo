@@ -16,6 +16,10 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     z-index: 2;
+
+    a {
+      box-shadow: none;
+    }
   }
 
   .logo {
@@ -57,6 +61,10 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     z-index: 2;
+
+    a {
+      box-shadow: none;
+    }
   }
 
   .banner-sub {
@@ -99,6 +107,11 @@
 
   .banner-small {
     padding: 0 1.5rem;
+
+    .banner-header {
+      font-size: 1.5rem;
+      line-height: 4.5789474rem;
+    }
 
     .banner-sub {
       font-size: 2.8rem;
