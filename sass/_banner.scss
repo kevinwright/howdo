@@ -23,10 +23,10 @@
   }
 
   .logo {
-    position: absolute;
+    position: fixed;
     left: -145px;
     top: -70px;
-    z-index: 1;
+    z-index: -6;
     content: url('../images/logo.svg');
   }
 
