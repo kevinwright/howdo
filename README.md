@@ -1,7 +1,7 @@
 
 ## About
 
-Just Good are a collective of designers, developers and writers who make great digital products and services. If you’re trying to make a positive change in the world, we’d like to help.  
+5 ways to help the planet
 
 <!-- ## To get started
 

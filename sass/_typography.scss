@@ -1,119 +1,26 @@
 body {
-  font-size: 19px;
-  line-height: 29px;
-  color: $black;
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 100;
+  font-size: 22px;
+}
+
+h1 {
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 800;
+  text-transform: uppercase;
+  }
+
+h2 {
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .heading-xlarge {
-  font-family: "europa",sans-serif;
-  font-size: 3.8947368rem;
-  line-height: 4.5789474rem;
-  margin-top: 1.5263158rem;
-  margin-bottom: 0rem;
+  font-size: 10rem;
 }
 
 .heading-large {
-  font-family: "europa",sans-serif;
-  font-size: 2.4736842rem;
-  line-height: 3.0526316rem;
-  margin-top: 1.5263158rem;
-  margin-bottom: 1.5263158rem;
-}
-
-.heading-medium {
-  font-family: "europa",sans-serif;
-  font-size: 2rem;
-  line-height: 3.0526316rem;
-  margin-top: 1.5263158rem;
-  margin-bottom: 0rem;
-}
-
-.heading-small {
-  font-family: "europa",sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5263158rem;
-  margin-top: 1.5263158rem;
-  margin-bottom: 0rem;
-}
-
-.heading-xsmall {
-  font-family: "europa",sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.5263158rem;
-  margin-top: 1.5263158rem;
-  margin-bottom: 0rem;
-}
-
-.heading-blue {
-  font-family: "europa",sans-serif;
-  display:inline-block;
-}
-
-a, .link {
-  cursor: pointer;
-  color: $greyblue;
-  box-shadow: inset 0 -2px 0 0 $orange;
-  display:inline-block;
-  text-decoration: none;
-  transition: all .2s ease-in-out;
-  padding: 0 3px;
-}
-
-.link::after {
-  content: url('../images/add.svg');
-}
-
-.link .drop::after {
-  content: url('../images/add.svg');
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-
-
-.more-list {
-  margin-top: 1rem;
-  padding: 0.05rem 0.75rem;
-  background-color: rgba($orange, 0.9);
-
-  p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-  }
-}
-
-a:hover {
-  border: none;
-  box-shadow: inset 0 -31px 0 0 $orange;
-}
-
-footer {
-  a {
-    color: $lightgrey;
-  }
-
-  a:hover {
-    border: none;
-    box-shadow: inset 0 -31px 0 0 $orange;
-    color: $greyblue;
-  }
-}
-
-
-
-@media (max-width: 45em) {
-
-  .heading-medium {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    margin-top: 0.2rem;
-  }
-
-  .link {
-    font-size: 1.1rem;
-  }
-
+  font-size: 3rem;
 }
