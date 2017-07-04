@@ -18,9 +18,19 @@ h2 {
 }
 
 .heading-xlarge {
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .heading-large {
   font-size: 3rem;
+}
+
+@media (max-width: 45em) {
+  .heading-xlarge {
+    font-size: 2rem;
+  }
+
+  .heading-large {
+    font-size: 2rem;
+  }
 }
