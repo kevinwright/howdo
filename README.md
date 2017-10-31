@@ -1,10 +1,4 @@
 
 ## About
 
-5 ways to help the planet
-
-<!-- ## To get started
-
-- Install Gulp CLI globally (instructions on gulp site)
-- Install dependencies `npm i`
-- Compile code `gulp` -->
+HowDo is an attempt to explain STEM (Science, technology, engineering and maths) subjects in an easy to understand and accessible way.
