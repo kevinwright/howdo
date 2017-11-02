@@ -1,0 +1,17 @@
+.button {
+  background: $blue;
+  font-weight: 700;
+  font-family: "omnes-pro",sans-serif;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0px 3px 0px darken( $blue, 15% );;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0.6rem 1.4rem;
+  display: inline-block;
+  color: $black!important;
+  border: 0!important;
+  text-decoration: none!important;
+}
+
+.button:hover {
+  background: darken( $blue, 15% );
+}
