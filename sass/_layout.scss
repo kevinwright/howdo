@@ -1,9 +1,23 @@
+
+
 .wrapper {
   padding: 2rem 4rem;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 75em) {
+
+  header, section {
+    padding: 0 3rem;
+  }
+
   .wrapper {
     padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 45em) {
+
+  header, section {
+    padding: 0 2rem;
   }
 }
