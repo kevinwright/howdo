@@ -4,5 +4,25 @@ header {
 
 .hero {
   font-size: 6rem;
+  line-height: 1.2;
   margin: 2rem 0;
+}
+
+.stem {
+  background-color: $pink;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 45em) {
+
+  .hero {
+    font-size: 3rem;
+  }
 }
