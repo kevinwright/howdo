@@ -23,6 +23,10 @@ body {
 }
 
 @media (max-width: 45em) {
+  body {
+    font-size: 18px;
+  }
+
   .heading-xlarge {
     font-size: 3rem;
   }
