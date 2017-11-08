@@ -1,0 +1,14 @@
+.howdo-article {
+  border-bottom: 2px $midgrey solid;
+  margin: 1rem 0;
+  padding-top: 0.5rem;
+  padding-bottom: 2.5rem;
+
+  .heading-large {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 45em) {
+
+}
