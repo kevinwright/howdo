@@ -3,8 +3,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center center;
-  display: flex;
-  flex-direction: column;
+  background-image: url(../images/intro-background.png);
 }
 
 .intro-animation {
@@ -14,6 +13,7 @@
   font-size: 6rem;
   line-height: 1.2;
   margin: 0;
+  padding-top: 2rem;
 }
 
 .intro {
@@ -26,11 +26,15 @@
 
   p {
     margin-bottom: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 45em) {
+
+  .hero {
+    background-image: url(../images/intro-background-mobile.png);
+  }
 
   .intro-animation {
     margin: auto 0;
@@ -44,5 +48,13 @@
     p {
       font-size: 1.4rem;
     }
+  }
+}
+
+@media (max-width: 30em) {
+
+  .hero {
+    background-repeat:no-repeat;
+    background-size:contain;
   }
 }
