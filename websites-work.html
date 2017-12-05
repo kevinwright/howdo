@@ -4,18 +4,18 @@
 	<script src="https://use.typekit.net/jgg7bqt.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<meta charset="utf-8"
-	<meta name="description" content="Use good design to change the world">
-	<meta name="keywords" content="design, ux, ui, interface, interaction">
+	<meta name="description" content="How do websites work">
+	<meta name="keywords" content="education, technology, STEM, science, engineering, maths">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="images/icon.png">
 	<meta name="twitter:site" content="@_justgooddesign">
 	<meta name="twitter:creator" content="@_justgooddesign">
-	<meta name="twitter:title" content="Just Good">
-	<meta name="twitter:description" content="Use good design to change the world">
+	<meta name="twitter:title" content="How do websites work">
+	<meta name="twitter:description" content="How do websites work">
 	<meta property="og:url" content="http://www.justgooddesign.co">
-	<meta property="og:title" content="Just Good design">
-	<meta property="og:description" content="Use good design to change the world">
+	<meta property="og:title" content="How do websites work">
+	<meta property="og:description" content="How do websites work">
 	<meta property="og:image" content="http://www.justgooddesign.co">
 	<title>How do websites work?</title>
 	<link rel="stylesheet" href="css/main.css">
@@ -25,10 +25,22 @@
 
 		<div role="main" id="fullpage">
 
+			<nav>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</nav>
+
 			<section class="section">
 				<div class="wrapper">
 					<h1 class="heading-large">How do websites work</h1>
-					<p>We use websites every day. But do you know how they work?</p>
+					<p>Websites are made up of words, images, and videos, all bundled up in files. The computer where these files are stored could be anywhere in the world, but your computer can still talk to it. This is because they’re both connected to the Internet.</p>
+					<p>When you type in a web address (like <a href="www.bbc.co.uk/newsround">www.bbc.co.uk/newsround</a>), your computer is sent all the files by cables or wirelessly. Your computer shows all these files to you in a way that is easy to view.</p>
 				</div>
 			</section>
 
@@ -36,9 +48,56 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
-							<h2 class="heading-xlarge">#</h2>
-							<h1 class="heading-large">#</h1>
-							<p>#</p>
+							<p>Our story starts with homework. Where every good story starts...</p>
+							<p>We have to write a story about the Romans - by tomorrow morning. And we don’t know anything about the Romans.</p>
+							<p>Let’s go to Wikipedia. That’s always a good place to start.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-12 large-9 columns">
+							<p>I open up the browser on my iPad. My browser is a app. And it is really good at reading website data. </p>
+							<p>Most websites are written in a language called hypertext markup language - most people refer to it as HTML.</p>
+							<p>Using HTML, people give meaning to the words they write by tagging them. This helps the computer understand them. For example in HTML, you can put a &#x3C;p&#x3E; tag around words. This tells a computer that this is a paragraph of text. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-12 large-9 columns">
+							<p>I start to type Wikipedia into the box for addresses at the top of my browser. Look at that, my super-smart browser suggests Wikipedia.</p>
+							<p>There is a computer somewhere in the world that holds all the files for Wikipedia. Maybe it’s in America. As soon as I press enter, my iPad will send a message to this computer asking for all the files it needs to show Wikipedia’s front page…</p>
+							<p>I press enter.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-12 large-9 columns">
+							<p>When I hit enter, my iPad asked the other computer for the Wikipedia files. They can talk to each other because they’re both connected to the internet – a worldwide network of computers, phones, cables, switches and other connected things. </p>
+							<p>My iPad knows where to send the request because everything connected to the internet has its own address – called an IP address.</p>
+							<p>When the Wikipedia computer (which is called a server) receives the request, it grabs all the files and send them back.</p>
+							<p>My browser then takes those files, and figures out how to display them all.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-12 large-9 columns">
+							<p>And Wikipedia is there. In seconds.</p>
 						</div>
 					</div>
 				</div>
@@ -50,7 +109,8 @@
 		<script src="js/full.min.js"></script>
 		<script>
 		$(document).ready(function() {
-		$('#fullpage').fullpage();
+			$('#fullpage').fullpage();
+			anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage']
 		});
 		</script>
 </body>
