@@ -23,20 +23,20 @@
 
 <body>
 
+	<nav class="inpage-nav">
+		<ul>
+			<li data-menuanchor="intro"><a href="#intro">Intro</a></li>
+			<li data-menuanchor="wikipedia"><a href="#wikipedia">Wikipedia</a></li>
+			<li data-menuanchor="browsers"><a href="#browsers">Browsers and HTML</a></li>
+			<li data-menuanchor="request"><a href="#request">Request</a></li>
+			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
+			<li data-menuanchor="end"><a href="#end">End</a></li>
+		</ul>
+	</nav>
+
 		<div role="main" id="fullpage">
 
-			<nav>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</nav>
-
-			<section class="section">
+			<section class="section" data-anchor="intro">
 				<div class="wrapper">
 					<h1 class="heading-large">How do websites work</h1>
 					<p>Websites are made up of words, images, and videos, all bundled up in files. The computer where these files are stored could be anywhere in the world, but your computer can still talk to it. This is because they’re both connected to the Internet.</p>
@@ -44,7 +44,7 @@
 				</div>
 			</section>
 
-			<section class="section">
+			<section class="section" data-anchor="wikipedia">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -56,7 +56,7 @@
 				</div>
 			</section>
 
-			<section class="section">
+			<section class="section" data-anchor="browsers">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -68,7 +68,7 @@
 				</div>
 			</section>
 
-			<section class="section">
+			<section class="section" data-anchor="request">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -80,7 +80,7 @@
 				</div>
 			</section>
 
-			<section class="section">
+			<section class="section" data-anchor="servers">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -93,7 +93,7 @@
 				</div>
 			</section>
 
-			<section class="section">
+			<section class="section" data-anchor="end">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -108,10 +108,9 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/full.min.js"></script>
 		<script>
-		$(document).ready(function() {
-			$('#fullpage').fullpage();
-			anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage']
-		});
+			$(document).ready(function() {
+				$('#fullpage').fullpage();
+			});
 		</script>
 </body>
 </html>
