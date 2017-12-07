@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="400px" height="400px" viewBox="0 0 234 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="230px" height="230px" viewBox="0 0 230 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 3</title>
+    <title>Group 5</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="92.4328827%" id="linearGradient-1">
-            <stop stop-color="#DC4E4D" offset="0%"></stop>
-            <stop stop-color="#FFCB39" offset="100%"></stop>
-        </linearGradient>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-3-Copy" transform="translate(-8.000000, -10.000000)" fill="url(#linearGradient-1)">
-            <circle id="Oval-3" cx="125" cy="127" r="117"></circle>
+        <g id="Logo" transform="translate(-67.000000, -362.000000)">
+            <g id="Group-5" transform="translate(67.000000, 362.000000)">
+                <g id="Group">
+                    <circle id="Oval" fill="#FFB9EF" cx="115" cy="115" r="115"></circle>
+                    <text id="HOW-Copy" font-family="Omnes-Bold, Omnes" font-size="48" font-weight="bold" fill="#000000">
+                        <tspan x="20" y="122">HOW</tspan>
+                    </text>
+                    <text id="DO-Copy" font-family="Omnes-Bold, Omnes" font-size="48" font-weight="bold" fill="#000000">
+                        <tspan x="146" y="122">DO</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy" fill="#000000" x="22" y="134" width="170" height="10" rx="5"></rect>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

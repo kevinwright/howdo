@@ -3,58 +3,56 @@
   height: 100vh;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/intro-background.png);
+  background-image: url(../images/pattern.svg);
+  display: flex;
+  flex-direction: column;
 }
 
-.intro-animation {
+.logo {
+  padding-top: 3rem;
+
+  img {
+    height: 175px;
+    width: auto;
+  }
+
 }
 
-.main-header {
-  font-size: 6rem;
-  line-height: 1.2;
-  margin: 0;
-  padding-top: 2rem;
-}
+// .main-header {
+//   font-size: 6rem;
+//   line-height: 1.2;
+//   margin: 0;
+//   padding-top: 2rem;
+// }
 
 .intro {
-  padding-bottom: 3rem;
+  padding-top: 1rem;
   font-family: "omnes-pro",sans-serif;
 
-  h2 {
-    margin-bottom: 0;
-  }
-
   p {
-    margin-bottom: 0.5rem;
-    font-size: 1.6rem;
+    line-height: 1.6;
+    font-size: 2rem;
+    display: inline;
+    background-color: $pink;
+    box-shadow: 10px 0 0 $pink, -10px 0 0 $pink;
   }
 }
 
-@media (max-width: 45em) {
+@media (max-width: 40em) {
 
   .hero {
-    background-image: url(../images/intro-background-mobile.png);
+    align-items: center;
   }
 
-  .intro-animation {
-    margin: auto 0;
-  }
-
-  .main-header {
-    font-size: 3rem;
+  .logo img {
+    height: 145px;
   }
 
   .intro {
+    text-align: center;
+
     p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
-  }
-}
-
-@media (max-width: 30em) {
-
-  .hero {
-    background-repeat:no-repeat;
-    background-size:contain;
   }
 }
