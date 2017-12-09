@@ -1,9 +1,9 @@
-header, section {
+header, .howdo-article {
   padding: 0 4rem;
 }
 
 .wrapper {
-  padding: 2rem 4rem;
+  padding: 3rem 2rem;
 }
 
 @media (max-width: 75em) {
@@ -15,7 +15,7 @@ header, section {
 
 @media (max-width: 45em) {
 
-  header, section {
+  header, .howdo-article {
     padding: 0 1.4rem;
   }
 }

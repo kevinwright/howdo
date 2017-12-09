@@ -1,9 +1,22 @@
+.logo-article {
+  position: absolute;
+  right: 0.7rem;
+  padding: 1rem 1rem 0 0;
+  z-index: 5;
+
+  img {
+    height: 80px;
+    width: auto;
+  }
+}
+
 .inpage-nav {
-  z-index: 1000;
+  z-index: 5;
   position: fixed;
-  top: 0;
-  left: 2rem;
+  top: 1rem;
+  right: 2.5rem;
   font-size: 1rem;
+  text-align: right;
 
   ul {
     padding-left: 0;
@@ -23,12 +36,19 @@
     font-weight: 700;
     transition: font 0.2s ease
   }
-
 }
+
+.inpage-nav li:first-child {
+  padding-bottom: 1rem;
+}
+
+
 
 @media (max-width: 45em) {
   .inpage-nav {
     font-size: 0.8rem;
+    bottom: 1rem;
+    top: inherit;
 
     a:hover {
       font-size: 0.9rem;
