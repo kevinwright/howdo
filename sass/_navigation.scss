@@ -13,9 +13,9 @@
 .inpage-nav {
   z-index: 5;
   position: fixed;
-  top: 1rem;
+  top: 1.8rem;
   right: 2.5rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: right;
 
   ul {
@@ -24,6 +24,13 @@
 
   li {
     list-style: none;
+    padding-bottom: 0.2rem;
+  }
+
+  li:after {
+    content: "-";
+    display: inline-block;
+    margin-left: 0.3rem;
   }
 
   a {
@@ -32,7 +39,7 @@
   }
 
   a:hover {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 700;
     transition: font 0.2s ease
   }
@@ -40,18 +47,22 @@
 
 .inpage-nav li:first-child {
   padding-bottom: 1rem;
+  font-size: 0.9rem;
+
+  a:hover {
+    font-size: 0.9rem;
+  }
+}
+
+.inpage-nav li:first-child::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0;
 }
 
 
-
-@media (max-width: 45em) {
+@media (max-width: 75em) {
   .inpage-nav {
-    font-size: 0.8rem;
-    bottom: 1rem;
-    top: inherit;
-
-    a:hover {
-      font-size: 0.9rem;
-    }
+    display: none;
   }
 }
