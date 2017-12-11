@@ -30,7 +30,7 @@
 	</div> -->
 
 	<nav class="inpage-nav">
-		<ul>
+		<ul id="navigation" class="desktop">
 			<li><a href="index.html">Back to home</a></li>
 			<li data-menuanchor="intro"><a href="#intro">Intro</a></li>
 			<li data-menuanchor="wikipedia"><a href="#wikipedia">Wikipedia</a></li>
@@ -38,6 +38,11 @@
 			<li data-menuanchor="request"><a href="#request">Request</a></li>
 			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
 			<li data-menuanchor="end"><a href="#end">End</a></li>
+		</ul>
+		<ul class="mobile">
+			<li><a href="index.html">Back to home</a></li>
+			<li>Back</li>
+			<li>Next</li>
 		</ul>
 	</nav>
 
@@ -121,6 +126,8 @@
 		<script>
 			$(document).ready(function() {
 				$('#fullpage').fullpage();
+				// anchors: ['intro', 'wikipedia', 'browsers', 'request', 'servers', 'end'],
+				menu: '#navigation'
 			});
 		</script>
 </body>

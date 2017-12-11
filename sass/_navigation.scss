@@ -18,6 +18,16 @@
   font-size: 1.1rem;
   text-align: right;
 
+  .active {
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: font 0.2s ease
+  }
+
+  .mobile {
+    display: none;
+  }
+
   ul {
     padding-left: 0;
   }
@@ -63,6 +73,17 @@
 
 @media (max-width: 75em) {
   .inpage-nav {
-    display: none;
+    position: fixed;
+    bottom: 0px;
+    top:inherit;
+
+    .mobile {
+      display: inherit;
+    }
+
+    .desktop {
+      display: none;
+    }
+
   }
 }
