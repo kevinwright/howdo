@@ -24,10 +24,6 @@
     transition: font 0.2s ease
   }
 
-  .mobile {
-    display: none;
-  }
-
   ul {
     padding-left: 0;
   }
@@ -70,20 +66,30 @@
   margin-left: 0;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 
 @media (max-width: 75em) {
   .inpage-nav {
-    position: fixed;
-    bottom: 0px;
-    top:inherit;
-
-    .mobile {
-      display: inherit;
-    }
-
-    .desktop {
       display: none;
     }
 
-  }
+    .mobile-nav {
+      z-index: 5;
+      display: flex;
+      position: fixed;
+      bottom: 0px;
+      cursor: pointer;
+
+
+      li {
+        list-style: none;
+        padding-bottom: 0.2rem;
+        padding-right: 1rem;
+        display: inline;
+      }
+    }
+
 }

@@ -39,10 +39,12 @@
 			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
 			<li data-menuanchor="end"><a href="#end">End</a></li>
 		</ul>
-		<ul class="mobile">
+	</nav>
+	<nav class="mobile-nav">
+		<ul>
 			<li><a href="index.html">Back to home</a></li>
-			<li>Back</li>
-			<li>Next</li>
+			<li id="back">Back</li>
+			<li id="next">Next</li>
 		</ul>
 	</nav>
 
@@ -128,6 +130,12 @@
 				$('#fullpage').fullpage();
 				// anchors: ['intro', 'wikipedia', 'browsers', 'request', 'servers', 'end'],
 				menu: '#navigation'
+			});
+			$(document).on('click', '#back', function(){
+			  $.fn.fullpage.moveSectionUp();
+			});
+			$(document).on('click', '#next', function(){
+			  $.fn.fullpage.moveSectionDown();
 			});
 		</script>
 </body>
