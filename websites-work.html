@@ -23,19 +23,14 @@
 
 <body>
 
-	<!-- <div class="logo-article">
-		<a href="index.html">
-			<img src="images/logo.svg" alt="How Do"/>
-		</a>
-	</div> -->
-
 	<nav class="inpage-nav">
-		<ul id="navigation" class="desktop">
+		<ul id="menu" class="desktop">
 			<li><a href="index.html">Home</a></li>
 			<li data-menuanchor="intro"><a href="#intro">Intro</a></li>
 			<li data-menuanchor="wikipedia"><a href="#wikipedia">Wikipedia</a></li>
 			<li data-menuanchor="browsers"><a href="#browsers">Browsers and HTML</a></li>
 			<li data-menuanchor="request"><a href="#request">Request</a></li>
+			<li data-menuanchor="request"><a href="#internet">Internet</a></li>
 			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
 			<li data-menuanchor="end"><a href="#end">End</a></li>
 		</ul>
@@ -78,9 +73,9 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
-							<p>I open up the browser on my iPad. My browser is a app. And it is really good at reading website data. </p>
-							<p>Most websites are written in a language called hypertext markup language - most people refer to it as HTML.</p>
-							<p>Using HTML, people give meaning to the words they write by tagging them. This helps the computer understand them. For example in HTML, you can put a &#x3C;p&#x3E; tag around words. This tells a computer that this is a paragraph of text. </p>
+							<p>I open up the browser on my iPad. My browser is a app. And it is really good at reading website files.</p>
+							<p>Most websites are written in a language called HTML.</p>
+							<p>Using HTML, people give meaning to the words they write by tagging them. This helps the computer understand them. For example in HTML, you can put a &#x3C;p&#x3E; tag around words. This tells a computer that this is a paragraph of text.</p>
 						</div>
 					</div>
 				</div>
@@ -91,8 +86,18 @@
 					<div class="row">
 						<div class="medium-12 large-9 columns">
 							<p>I start to type Wikipedia into the box for addresses at the top of my browser. Look at that, my super-smart browser suggests Wikipedia.</p>
-							<p>There is a computer somewhere in the world that holds all the files for Wikipedia. Maybe it’s in America. As soon as I press enter, my iPad will send a message to this computer asking for all the files it needs to show Wikipedia’s front page…</p>
-							<p>I press enter.</p>
+							<p>There is a computer somewhere in the world that holds all the files for Wikipedia. As soon as I press enter, my iPad will send a message to this computer asking for all the files it needs to show Wikipedia’s home page.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" data-anchor="internet">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-12 large-9 columns">
+							<p>When I hit enter, my iPad asked the other computer for the Wikipedia files. They can talk to each other because they’re both connected to the internet – a network of computers, phones, and cables that covers the whole world.</p>
+							<p>My iPad knows where to send the request because everything connected to the internet has its own address – called an IP address.</p>
 						</div>
 					</div>
 				</div>
@@ -102,9 +107,7 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
-							<p>When I hit enter, my iPad asked the other computer for the Wikipedia files. They can talk to each other because they’re both connected to the internet – a worldwide network of computers, phones, cables, switches and other connected things. </p>
-							<p>My iPad knows where to send the request because everything connected to the internet has its own address – called an IP address.</p>
-							<p>When the Wikipedia computer (which is called a server) receives the request, it grabs all the files and send them back.</p>
+							<p>When the Wikipedia computer (which is called a server) receives the request, it grabs all the files I need and sends them back.</p>
 							<p>My browser then takes those files, and figures out how to display them all.</p>
 						</div>
 					</div>
@@ -128,8 +131,8 @@
 		<script>
 			$(document).ready(function() {
 				$('#fullpage').fullpage();
-				// anchors: ['intro', 'wikipedia', 'browsers', 'request', 'servers', 'end'],
-				menu: '#navigation'
+				// anchors: ['intro', 'wikipedia', 'browsers', 'request', 'internet', 'servers', 'end'],
+				menu: '#menu'
 			});
 			$(document).on('click', '#back', function(){
 			  $.fn.fullpage.moveSectionUp();
