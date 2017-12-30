@@ -30,7 +30,7 @@
 			<li data-menuanchor="wikipedia"><a href="#wikipedia">Wikipedia</a></li>
 			<li data-menuanchor="browsers"><a href="#browsers">Browsers and HTML</a></li>
 			<li data-menuanchor="request"><a href="#request">Request</a></li>
-			<li data-menuanchor="request"><a href="#internet">Internet</a></li>
+			<li data-menuanchor="internet"><a href="#internet">Internet</a></li>
 			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
 			<li data-menuanchor="end"><a href="#end">End</a></li>
 		</ul>
@@ -130,10 +130,11 @@
 		<script src="js/full.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				$('#fullpage').fullpage();
-				// anchors: ['intro', 'wikipedia', 'browsers', 'request', 'internet', 'servers', 'end'],
-				menu: '#menu'
-			});
+				$('#fullpage').fullpage({
+					anchors: ['intro', 'wikipedia', 'browsers', 'request', 'internet', 'servers', 'end'],
+					menu: '#menu'
+				});
+			});			
 			$(document).on('click', '#back', function(){
 			  $.fn.fullpage.moveSectionUp();
 			});
