@@ -19,6 +19,39 @@
 	<meta property="og:image" content="http://www.justgooddesign.co">
 	<title>How do websites work?</title>
 	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+		#intro {
+			background-color: #96C7EC;
+		}
+		#section1 {
+			background-image: url('images/websites/your-ipad.png');
+			/*box-shadow: inset 0 0 6em 1em #34658a;*/
+			background-color: #96C7EC;
+		}
+		#section2 {
+			/*background-image: url('images/websites/your-ipad.png');*/
+			background-color: #96C7EC;
+		}
+		#section3 {
+			/*background-image: url('images/websites/your-ipad.png');*/
+			background-color: #96C7EC;
+		}
+		#section4 {
+			/*background-image: url('images/websites/your-ipad.png');*/
+			background-color: #96C7EC;
+		}
+		#section5 {
+			/*background-image: url('images/websites/your-ipad.png');*/
+			background-color: #96C7EC;
+		}
+		#section6 {
+			/*background-image: url('images/websites/your-ipad.png');*/
+			background-color: #96C7EC;
+		}
+
+	</style>
+
 </head>
 
 <body>
@@ -45,7 +78,7 @@
 
 		<div role="main" id="fullpage">
 
-			<section class="section" data-anchor="intro">
+			<section id="intro" class="section" data-anchor="intro" aria-label="Girl sitting on her couch ">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -57,7 +90,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="wikipedia">
+			<section id="section1" class="section" data-anchor="wikipedia">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -69,7 +102,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="browsers">
+			<section id="section2" class="section" data-anchor="browsers">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -81,7 +114,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="request">
+			<section id="section3" class="section" data-anchor="request">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -92,7 +125,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="internet">
+			<section id="section4" class="section" data-anchor="internet">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -103,7 +136,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="servers">
+			<section id="section5" class="section" data-anchor="servers">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -114,7 +147,7 @@
 				</div>
 			</section>
 
-			<section class="section" data-anchor="end">
+			<section id="section6" class="section" data-anchor="end">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-12 large-9 columns">
@@ -134,7 +167,7 @@
 					anchors: ['intro', 'wikipedia', 'browsers', 'request', 'internet', 'servers', 'end'],
 					menu: '#menu'
 				});
-			});			
+			});
 			$(document).on('click', '#back', function(){
 			  $.fn.fullpage.moveSectionUp();
 			});

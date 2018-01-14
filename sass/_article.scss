@@ -14,3 +14,18 @@
     margin-top: 0;
   }
 }
+
+.section {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+@media (max-width: 50em) {
+
+  .section {
+    background-size: 100%;
+    background-position: bottom center;
+  }
+
+}
