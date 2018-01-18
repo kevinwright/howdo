@@ -9,6 +9,11 @@
   }
 }
 
+.article {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 .wrapper {
   .heading-large {
     margin-top: 0;
@@ -17,6 +22,7 @@
 
 .section {
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
