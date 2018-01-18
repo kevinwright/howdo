@@ -5,9 +5,15 @@ body {
   font-size: 22px;
 }
 
-.heading-xlarge, .heading-large, .heading-medium, .main-header  {
+.heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header  {
   font-family: "omnes-pro",sans-serif;
   font-weight: 700;
+}
+
+.heading-large-article {
+  font-size: 7rem;
+  letter-spacing: 5px;
+  text-shadow: 6px 6px $white;
 }
 
 .heading-xlarge {

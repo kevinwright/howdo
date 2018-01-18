@@ -14,9 +14,9 @@
   z-index: 5;
   position: fixed;
   top: 1.8rem;
-  right: 2.5rem;
+  left: 2.5rem;
   font-size: 1.1rem;
-  text-align: right;
+
 
   .active {
     font-size: 1.25rem;
@@ -26,6 +26,7 @@
 
   ul {
     padding-left: 0;
+    display: flex;
   }
 
   li {
