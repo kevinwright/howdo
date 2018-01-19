@@ -13,6 +13,7 @@ body {
 .heading-large-article {
   font-size: 7rem;
   letter-spacing: 5px;
+  line-height: 1.4;
   text-shadow: 6px 6px $white;
 }
 
@@ -39,6 +40,11 @@ a:hover {
 @media (max-width: 45em) {
   body {
     font-size: 17px;
+  }
+
+  .heading-large-article {
+    font-size: 4.5rem;
+    letter-spacing: 5px;
   }
 
   .heading-xlarge {

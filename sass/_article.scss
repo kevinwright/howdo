@@ -10,7 +10,7 @@
 }
 
 .article {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
 
@@ -26,11 +26,22 @@
   background-position: center center;
 }
 
-@media (max-width: 50em) {
-
+@media (max-width: 70em) {
   .section {
     background-size: 100%;
-    background-position: bottom center;
+    background-position: bottom right;
+  }
+}
+
+@media (max-width: 45em) {
+
+  .section {
+    background-size: 120%;
+    background-position: bottom right;
+  }
+
+  .article {
+    font-size: 1.2rem;
   }
 
 }

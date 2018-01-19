@@ -1,11 +1,11 @@
 .logo-article {
   position: absolute;
-  right: 0.7rem;
-  padding: 1rem 1rem 0 0;
+  left: 2rem;
+  padding-top: 2rem;
   z-index: 5;
 
   img {
-    height: 80px;
+    height: 40px;
     width: auto;
   }
 }
@@ -13,15 +13,16 @@
 .inpage-nav {
   z-index: 5;
   position: fixed;
-  top: 1.8rem;
-  left: 2.5rem;
+  top: 1rem;
+  left: 16rem;
   font-size: 1.1rem;
 
 
   .active {
-    font-size: 1.25rem;
     font-weight: 700;
-    transition: font 0.2s ease
+    transition: font 0.2s ease;
+    text-decoration: underline;
+    text-decoration-skip: ink;
   }
 
   ul {
@@ -31,13 +32,7 @@
 
   li {
     list-style: none;
-    padding-bottom: 0.2rem;
-  }
-
-  li:after {
-    content: "-";
-    display: inline-block;
-    margin-left: 0.3rem;
+    padding: 0 1rem 0.2rem 0;
   }
 
   a {
@@ -50,21 +45,6 @@
     font-weight: 700;
     transition: font 0.2s ease
   }
-}
-
-.inpage-nav li:first-child {
-  padding-bottom: 1rem;
-  font-size: 0.9rem;
-
-  a:hover {
-    font-size: 0.9rem;
-  }
-}
-
-.inpage-nav li:first-child::after {
-  content: "";
-  display: inline-block;
-  margin-left: 0;
 }
 
 .mobile-nav {

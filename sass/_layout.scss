@@ -3,13 +3,17 @@ header, .howdo-article {
 }
 
 .wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
   padding: 2rem 2rem;
 }
 
-@media (max-width: 75em) {
-
+@media (max-width: 70em) {
   .wrapper {
-    padding: 2rem 2rem;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 5rem 2rem;
   }
 }
 
@@ -17,5 +21,11 @@ header, .howdo-article {
 
   header, .howdo-article {
     padding: 0 1.4rem;
+  }
+
+  .wrapper {
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 5rem 2rem;
   }
 }
