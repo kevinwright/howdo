@@ -21,23 +21,23 @@
 }
 
 .section {
-  background-size: 100%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
 }
 
 @media (max-width: 70em) {
   .section {
-    background-size: 100%;
-    background-position: bottom right;
+    background-size: 60%;
+    background-position: center bottom;
   }
 }
 
-@media (max-width: 45em) {
+@media (max-width: 40em) {
 
   .section {
-    background-size: 120%;
-    background-position: bottom right;
+    background-size: 100%;
+    background-position: center bottom;
   }
 
   .article {

@@ -9,10 +9,10 @@
 }
 
 .logo {
-  padding-top: 3rem;
+  padding: 5rem 0 3rem 0;
 
   img {
-    height: 175px;
+    height: 90px;
     width: auto;
   }
 }
@@ -36,8 +36,13 @@
     align-items: center;
   }
 
-  .logo img {
-    height: 145px;
+  .logo {
+    padding: 3rem 0 1rem 0;
+
+    img {
+      height: 50px;
+    }
+
   }
 
   .intro {
