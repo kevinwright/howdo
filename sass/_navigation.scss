@@ -47,8 +47,36 @@
   }
 }
 
-.mobile-nav {
-  display: none;
+.start-next {
+  
+}
+
+.section-nav {
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+
+  li {
+    list-style: none;
+    padding-right: 1.75rem;
+    display: inline;
+    color: $black;
+    padding-bottom: .2rem;
+  }
+
+  .next::after {
+    content: url('../images/arrow.svg');
+    transform: rotate(270deg);
+    display: inline-block;
+    padding: 1px 16px 0px 13px;
+  }
+  .back::before {
+    content: url('../images/arrow.svg');
+    transform: rotate(90deg);
+    display: inline-block;
+    padding: 1px 11px 0px 15px;
+  }
+
 }
 
 
@@ -63,46 +91,15 @@
   }
 
   .inpage-nav {
-      display: none;
-    }
+    display: none;
+  }
 
-    .mobile-nav {
-      z-index: 5;
-      display: flex;
-      position: fixed;
-      bottom: 0px;
-      cursor: pointer;
-
-      a {
-        text-decoration: none;
-        color: $black;
-      }
-
-      ul {
-        padding-left: 1.8rem;
-      }
-
-      li {
-        list-style: none;
-        padding-bottom: 0.2rem;
-        padding-right: 1.5rem;
-        display: inline;
-        color: $black;
-      }
-
-      #back::before {
-        content: url('../images/arrow.svg');
-        transform: rotate(90deg);
-        display: inline-block;
-        padding: 1px 11px 0px 15px;
-      }
-
-      #next::after {
-        content: url('../images/arrow.svg');
-        transform: rotate(270deg);
-        display: inline-block;
-        padding: 7px 15px 0px 5px;
-      }
-    }
+  .mobile-nav {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    cursor: pointer;
+  }
 
 }
