@@ -11,10 +11,11 @@ body {
 }
 
 .heading-large-article {
-  font-size: 7rem;
+  font-size: 6rem;
   letter-spacing: 4px;
   line-height: 1.4;
   text-shadow: 6px 6px $white;
+  margin-bottom: 2rem;
 }
 
 .heading-xlarge {
@@ -37,6 +38,17 @@ a:hover {
   color: darken( $blue, 40% )
 }
 
+@media (max-width: 60em) {
+
+  .heading-large-article {
+    font-size: 5rem;
+    letter-spacing: 4px;
+    line-height: 1.4;
+    text-shadow: 4px 4px $white;
+  }
+
+}
+
 @media (max-width: 45em) {
   body {
     font-size: 17px;
@@ -45,6 +57,7 @@ a:hover {
   .heading-large-article {
     font-size: 4rem;
     letter-spacing: 2px;
+    text-shadow: 3px 3px $white;
   }
 
   .heading-xlarge {
