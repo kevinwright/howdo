@@ -27,9 +27,13 @@
 }
 
 @media (max-width: 70em) {
+  .article {
+    font-size: 1.2rem;
+  }
+
   .section {
-    background-size: 60%;
-    background-position: center bottom;
+    background-size: 50%;
+    background-position: center right;
   }
 }
 
@@ -41,7 +45,7 @@
   }
 
   .article {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
 }
