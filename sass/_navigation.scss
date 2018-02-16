@@ -47,14 +47,13 @@
   }
 }
 
-.start-next {
-  
-}
-
 .section-nav {
   padding: 0;
   display: flex;
   cursor: pointer;
+  padding-top: 20px;
+  font-size: 1.1rem;
+  color: $darkgrey;
 
   li {
     list-style: none;
@@ -81,6 +80,11 @@
 
 
 @media (max-width: 55em) {
+
+  .section-nav {
+    padding-top: 10px;
+    font-size: 0.9rem;
+  }
 
   .logo-article {
 
