@@ -1,6 +1,6 @@
 .hero {
   background-color: $green;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: center center;
   background-image: url(../images/pattern.svg);
@@ -22,11 +22,12 @@
   font-family: "omnes-pro",sans-serif;
 
   p {
-    line-height: 1.6;
+    line-height: 1.8;
+    padding: 0.1rem 0;
     font-size: 2rem;
     display: inline;
-    background-color: $pink;
-    box-shadow: 10px 0 0 $pink, -10px 0 0 $pink;
+    background-color: $white;
+    box-shadow: 15px 0 0 $white, -15px 0 0 $white;
   }
 }
 
