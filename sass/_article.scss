@@ -1,8 +1,8 @@
 .howdo-article {
-  border-bottom: 2px $midgrey solid;
+  border-bottom: 1px $midgrey solid;
   margin: 1rem 0;
-  padding-top: 0.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 
   .heading-large {
     margin-top: 0;
@@ -10,7 +10,7 @@
 }
 
 .article {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   line-height: 1.6;
 }
 
@@ -26,9 +26,26 @@
   background-position: center right;
 }
 
+.end-article {
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  .copywrite {
+    padding-top: 1rem;
+    font-size: .75rem;
+    align-self: flex-end;
+  }
+
+  .end-navigation-options {
+    margin: 3rem 0;
+  }
+}
+
 @media (max-width: 70em) {
   .article {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .section {
@@ -45,7 +62,7 @@
   }
 
   .article {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
 }

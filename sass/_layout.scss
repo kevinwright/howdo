@@ -1,4 +1,4 @@
-header, .howdo-article {
+header, .howdo-article, footer {
   padding: 0 4rem;
 }
 
@@ -7,17 +7,26 @@ header, .howdo-article {
   align-items: center;
   height: 100%;
   padding: 2rem 2rem;
+
+  .credit {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 45em) {
 
-  header, .howdo-article {
+  header, .howdo-article, footer {
     padding: 0 1.4rem;
   }
 
   .wrapper {
-    align-self: flex-start;
     flex-direction: column;
-    padding: 4rem 2rem;
+    align-self: flex-start;
+    padding: 4.5rem 2rem;
+
+    .credit {
+      font-size: 0.9rem;
+    }
   }
 }
