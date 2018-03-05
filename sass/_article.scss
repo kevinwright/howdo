@@ -1,5 +1,5 @@
 .howdo-article {
-  border-bottom: 1px $midgrey solid;
+  border-bottom: 1px $lightgrey solid;
   margin: 1rem 0;
   padding-top: 1rem;
   padding-bottom: 4rem;
@@ -7,6 +7,10 @@
   .heading-large {
     margin-top: 0;
   }
+}
+
+.howdo-article:last-of-type {
+  border-bottom: none;
 }
 
 .article {
