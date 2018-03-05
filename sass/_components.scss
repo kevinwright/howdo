@@ -7,14 +7,14 @@
   cursor: pointer;
   padding: 0.6rem 1.4rem;
   display: inline-block;
-  color: $black!important;
+  color: $pink!important;
   border: 0!important;
   text-decoration: none!important;
 }
 
 .button-secondary {
     cursor: pointer;
-    color: $darkgrey;
+    color: $midgrey;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -27,7 +27,7 @@
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    border: 2px solid $darkgrey;
+    border: 2px solid $midgrey;
 }
 
 a.button-secondary {
@@ -35,8 +35,8 @@ a.button-secondary {
 }
 
 .button-secondary:hover {
-  border: 2px solid $black;
-  color: $black;
+  border: 2px solid $pink;
+  color: $pink;
 }
 
 .button:hover {
@@ -46,6 +46,10 @@ a.button-secondary {
 .image {
   max-width: 100%;
   height: auto;
+}
+
+hr {
+  border: 1px solid $blue;
 }
 
 @media (max-width: 45em) {
