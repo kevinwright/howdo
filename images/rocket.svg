@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="439px" height="339px" viewBox="0 0 439 339" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rocket</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rocket-Copy-2" transform="translate(-188.000000, -150.000000)" stroke="#000000">
+            <g id="Rocket" transform="translate(190.000000, 88.000000)">
+                <g id="rocket-trails" transform="translate(0.000000, 242.000000)" stroke-width="5" stroke-linecap="square">
+                    <path class="trail" d="M52.2342829,3.59163274 L52.2342829,58.5916327" id="trail-2" transform="translate(52.234283, 31.091633) rotate(-300.000000) translate(-52.234283, -31.091633) "></path>
+                    <path class="trail" d="M73.5740289,60.553157 L73.5740289,115.553157" id="trail-5" transform="translate(73.574029, 88.053157) rotate(-300.000000) translate(-73.574029, -88.053157) "></path>
+                    <path class="trail" d="M54.5560797,16.4791281 L54.5560797,86.9950838" id="trail-3" transform="translate(55.056080, 51.979128) rotate(-300.000000) translate(-55.056080, -51.979128) "></path>
+                    <path class="trail" d="M58.9939018,37.7996362 L58.9939018,107.799636" id="trail-4" transform="translate(58.993902, 72.799636) rotate(-300.000000) translate(-58.993902, -72.799636) "></path>
+                    <path class="trail" d="M32.091978,-14.7958626 L32.091978,55.2041374" id="trail-1" transform="translate(32.091978, 20.204137) rotate(-300.000000) translate(-32.091978, -20.204137) "></path>
+                </g>
+                <g id="rocket-body" transform="translate(37.000000, 0.000000)" stroke-width="6">
+                    <polygon class="engine" id="engine" points="120 296 66 203 37 208 100 318"></polygon>
+                    <path class="rocket-body" d="M160.59273,336.943699 L329.533548,336.943699 C329.533548,336.943699 332.422857,49.3251891 244.392113,-14.2010904 C151.385072,64.891831 160.59273,336.943699 160.59273,336.943699 Z" id="body" transform="translate(244.942864, 161.371304) rotate(-300.000000) translate(-244.942864, -161.371304) "></path>
+                    <path class="window" d="M256.579091,112.747077 C252.260732,112.747077 215.579091,115.698249 215.579091,153.747077 C215.579091,191.795905 250.953603,195.747077 256.579091,195.747077 C262.204579,195.747077 298.579091,194.747077 298.579091,153.747077 C298.579091,112.747077 260.89745,112.747077 256.579091,112.747077 Z" id="Window" transform="translate(257.079091, 154.247077) rotate(-300.000000) translate(-257.079091, -154.247077) "></path>
+                    <polygon class="right-window" id="right-wing" points="234 260 244 319 161 395 136 323"></polygon>
+                    <path class="left-wing" d="M51,176 L0,117 L107,83 L153,121 C153,121 120.045098,137.348231 104,146 C87.954902,154.651769 51,176 51,176 Z" id="left-wing"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
