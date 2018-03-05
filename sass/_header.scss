@@ -1,9 +1,10 @@
 .hero {
-  background-color: $green;
-  height: 80vh;
+  background-color: $pink;
+  height: 100vh;
+  text-align: center;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/pattern.svg);
+  // background-image: url(../images/pattern.svg);
   display: flex;
   flex-direction: column;
 }
@@ -17,41 +18,33 @@
   }
 }
 
+.animation {
+  margin: 0 auto;
+  display: block;
+	position: relative;
+	height: 50vh;
+  width: 20vw;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.header-svg {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .intro {
-  padding-top: 1rem;
+  padding-bottom: 2rem;
   font-family: "omnes-pro",sans-serif;
 
   p {
+    color: $blue;
     line-height: 1.8;
     padding: 0.1rem 0;
     font-size: 2rem;
     display: inline;
-    background-color: $white;
-    box-shadow: 15px 0 0 $white, -15px 0 0 $white;
-  }
-}
-
-@media (max-width: 40em) and (orientation: portrait) {
-
-  .hero {
-    align-items: center;
-  }
-
-  .logo {
-    padding: 3rem 0 1rem 0;
-
-    img {
-      height: 50px;
-    }
-
-  }
-
-  .intro {
-    text-align: center;
-
-    p {
-      font-size: 1.4rem;
-    }
   }
 }
 
@@ -66,10 +59,44 @@
 
   }
 
+  .animation {
+    width: 20vw;
+  }
+
   .intro {
     p {
       font-size: 1.4rem;
     }
   }
 
+}
+
+@media (max-width: 40em) and (orientation: portrait) {
+
+  .hero {
+    align-items: center;
+  }
+
+  .animation {
+  	height: 50vh;
+    width: 60vw;
+  }
+
+  .logo {
+    padding: 3rem 0 1rem 0;
+
+    img {
+      height: 50px;
+    }
+
+  }
+
+  .intro {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
 }
