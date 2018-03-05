@@ -1,8 +1,9 @@
 body {
   font-family: "aktiv-grotesk-thin",sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.4;
   font-size: 22px;
+  background-color: $white;
 }
 
 .heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header  {
@@ -31,11 +32,13 @@ body {
 }
 
 a {
-  color: darken( $blue, 25% )
+  color: darken( $blue, 5% );
+  text-decoration: none;
+  border-bottom: 1px solid $blue;
 }
 
 a:hover {
-  color: darken( $blue, 40% )
+  color: darken( $blue, 20% );
 }
 
 @media (max-width: 60em) {
