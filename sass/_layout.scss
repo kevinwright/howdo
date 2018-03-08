@@ -6,11 +6,28 @@ header, .howdo-article, footer {
   display: flex;
   align-items: center;
   height: 100%;
+  padding: 2rem;
+}
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
   padding: 2rem 2rem;
+  flex-direction: column;
 
   .credit {
-    margin-bottom: 2rem;
-    font-size: 1rem;
+    align-items: flex-end;
+    margin: 4rem 0;
+    color: $darkgrey;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    li {
+      padding-right: 1rem;
+    }
   }
 }
 
@@ -24,9 +41,12 @@ header, .howdo-article, footer {
     flex-direction: column;
     align-self: flex-start;
     padding: 4.5rem 2rem;
+  }
 
+  .wrapper-header {
     .credit {
       font-size: 0.9rem;
+      display: block;
     }
   }
 }
