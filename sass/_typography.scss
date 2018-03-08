@@ -1,5 +1,5 @@
 body {
-  font-family: "aktiv-grotesk-thin",sans-serif;
+  font-family: "aktiv-grotesk",sans-serif;
   font-weight: 300;
   line-height: 1.4;
   font-size: 22px;
@@ -59,6 +59,7 @@ a:hover {
 
   .heading-large-article {
     font-size: 4rem;
+    margin-top: 2rem;
     letter-spacing: 2px;
     text-shadow: 3px 3px $white;
   }
