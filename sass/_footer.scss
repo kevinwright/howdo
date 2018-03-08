@@ -10,6 +10,15 @@ footer {
     text-decoration: underline;
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding-bottom: 0.25rem;
+    }
+  }
+
   a:hover {
     color: $midgrey;
   }
@@ -18,4 +27,12 @@ footer {
     padding-top: 1rem;
     font-size: .75rem;
   }
+}
+
+@media (max-width: 45em) {
+
+  footer {
+    font-size: 0.9rem;
+  }
+
 }
