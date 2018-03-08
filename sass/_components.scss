@@ -2,19 +2,19 @@
   background-color: $blue;
   font-weight: 700;
   font-family: "omnes-pro",sans-serif;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0px 3px 0px darken( $blue, 18% );;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0px 3px 0px darken( $blue, 18% );
   border-radius: 2px;
   cursor: pointer;
   padding: 0.6rem 1.4rem;
   display: inline-block;
-  color: $pink!important;
+  color: $white!important;
   border: 0!important;
   text-decoration: none!important;
 }
 
 .button-secondary {
     cursor: pointer;
-    color: $midgrey;
+    color: $blue;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -27,7 +27,7 @@
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    border: 2px solid $midgrey;
+    border: 2px solid $blue;
 }
 
 a.button-secondary {
@@ -35,8 +35,8 @@ a.button-secondary {
 }
 
 .button-secondary:hover {
-  border: 2px solid $pink;
-  color: $pink;
+  border: 2px solid darken( $blue, 10% );
+  color: darken( $blue, 10% );
 }
 
 .button:hover {
@@ -57,7 +57,7 @@ hr {
   .button-secondary {
       font-size: 1.1rem;
       padding: 2px 7px;
-      border: 2px solid $darkgrey;
+      border: 2px solid $blue;
   }
 
 }
