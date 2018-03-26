@@ -1,5 +1,9 @@
-header, .howdo-article, footer {
+header, .howdo-article, footer, .about {
   padding: 0 4rem;
+}
+
+.about {
+  background-color: $pink;
 }
 
 .wrapper {
@@ -33,7 +37,7 @@ header, .howdo-article, footer {
 
 @media (max-width: 45em) {
 
-  header, .howdo-article, footer {
+  header, .howdo-article, footer, .about {
     padding: 0 1.4rem;
   }
 
