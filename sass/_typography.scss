@@ -6,17 +6,27 @@ body {
   background-color: $white;
 }
 
-.heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header  {
+.heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header, .heading-medium-article  {
   font-family: "omnes-pro",sans-serif;
   font-weight: 700;
 }
 
 .heading-large-article {
   font-size: 6rem;
+  margin-top: 4rem;
   letter-spacing: 4px;
   line-height: 1.2;
   text-shadow: 6px 6px $white;
   margin-bottom: 2rem;
+}
+
+.heading-medium-article {
+    font-size: 4rem;
+    margin-top: 4rem;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    text-shadow: 4px 4px $white;
+    margin-bottom: 2rem;
 }
 
 .heading-xlarge {
@@ -61,6 +71,13 @@ a:hover {
     font-size: 4rem;
     margin-top: 2rem;
     letter-spacing: 2px;
+    text-shadow: 3px 3px $white;
+  }
+
+  .heading-medium-article {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;
     text-shadow: 3px 3px $white;
   }
 
