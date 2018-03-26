@@ -100,3 +100,187 @@
 }
 
 // Bridge
+
+// Camera
+
+.lens-ring6, .body-pin, .body-pin-circle, .body-pin-line1, .body-pin-line2, .BKT-button, .bkt, .flash-button, .flash-button-edge, .front-plate, .Lens,  .lens-front, .lens-bottom, .lens-wide, .lens-small, .lens-shine, .lens-medium, .lens-ring6, .lens-ring5, .lens-ring4, .lens-ring3, .lens-ring2, .lens-ring1, .lens-ring, .flash, .manual-switch-line1, .manual-switch-line2, .manual-switch-line3, .manual-switch-line4, .manual-switch-line5, .manual-switch-small, .manual-switch-large, .ma, .ma2, .manual-on, .manual-off, .vr-switch-small, .vr-switch-large, .vr-switch-line1, .vr-switch-line2, .vr-switch-line3, .vr-switch-line4, .vr-switch-line5, .vr-on, .vr-off, .on, .off, .mia, .lens-pin, .shutter, .shutter-body, .lens-pin-circle, .lens-pin-line1, .lens-pin-line2, .flash-button, .flash-button-edge, .flash-arrow, .af, .m, .af-button, .af-select, .af-on, .af-off, .body-outline, .body-outline2, .lens-button, .body-outline3, .dc-in, .cables-box, .dc-in-box, .hdmi, .hdmi-box, .cable-box, .av-out, .av-box, .cable, .gps-box, .gps, .aperture-top, .aperture-bottom, .aperture-detail1, .aperture-detail2, .aperture-detail3, .aperture-detail4, .aperture-detail5, .aperture-detail6, .aperture-detail7, .aperture-detail8, .aperture-border, .front-focus-ring, .back-focus-ring, .lens1-notch1, .lens1-notch2, .lens1-notch3, .lens1-notch4, .lens1-notch5, .lens1-notch6, .lens1-notch7, .lens1-notch8, .lens1-notch9, .lens1-notch10, .lens1-notch11, .lens1-notch12, .lens1-notch13, .lens1-notch14, .lens1-notch15, .lens1-notch16, .lens1-notch17, .lens1-notch18, .lens1-notch19, .lens1-notch20, .lens1-notch21, .lens1-notch22, .lens1-notch22, .lens1-notch23, .flash-plate2, .flash-plate1 {
+  animation: offset 2s linear forwards;
+}
+.body-outline {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 1.5s;
+}
+
+.body-outline2, .body-outline3 {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation-delay: 3s;
+}
+
+.lens-ring6, .lens-ring5, .lens-ring4, .lens-ring3, .lens-ring2, .lens-ring1, .lens-ring {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+}
+
+.lens-ring5, .lens-ring3, .lens-ring1 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation-delay: 0.4s;
+}
+
+.body-pin, .body-pin-circle, .body-pin-line1, .body-pin-line2 {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation-delay: 0.4s;
+}
+
+.BKT-button, .bkt {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation-delay: 0.5s;
+}
+
+.flash-button, .flash-button-edge, .flash-arrow {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation-delay: 1s;
+}
+
+.front-plate {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 0.5s;
+}
+
+.lens-pin {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-delay: 1.3s;
+}
+
+.Lens,  .lens-front, .lens-bottom, .lens-wide, .lens-small, .lens-shine, .lens-medium {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 0.5s;
+}
+
+.lens-medium, .lens-wide {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-delay: 0.5s;
+}
+
+.lens-shine {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation-delay: 1.8s;
+}
+
+.flash {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  animation-delay: 2s;
+}
+
+.manual-switch-line1, .manual-switch-line2, .manual-switch-line3, .manual-switch-line4, .manual-switch-line5, .manual-switch-small, .manual-switch-large {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 1.6s;
+}
+
+.ma, .ma2, .manual-on, .manual-off {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-delay: 2s;
+}
+
+.vr-switch-small, .vr-switch-large, .vr-switch-line1, .vr-switch-line2, .vr-switch-line3, .vr-switch-line4, .vr-switch-line5 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 1.6s;
+}
+
+.vr-on, .vr-off, .on, .off, .mia {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-delay: 2s;
+}
+
+.shutter, .shutter-body {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 2.2s;
+}
+
+.lens-pin-circle, .lens-pin-line1, .lens-pin-line2 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-delay: 2s;
+}
+
+.af, .m, .af-button, .af-select {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 2.4s;
+}
+
+.af-on, .af-off {
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation-delay: 2.4s;
+}
+
+.lens-button {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 1.7s;
+}
+
+.dc-in, .dc-in-box, .hdmi, .hdmi-box, .cable-box, .av-out, .av-box, .cable, .gps-box, .gps {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 1.7s;
+}
+
+.cables-box {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-delay: 2.2s;
+}
+
+.aperture-top, .aperture-bottom, .aperture-border {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-delay: 1.8s;
+}
+
+.aperture-detail1, .aperture-detail3, .aperture-detail5, .aperture-detail7, .aperture-detail8 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation-delay: 2s;
+}
+
+.aperture-detail2, .aperture-detail4, .aperture-detail6, .aperture-detail8 {
+  stroke-dasharray: 35;
+  stroke-dashoffset: 35;
+  animation-delay: 2.2s;
+}
+
+.front-focus-ring, .back-focus-ring {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 3.3s;
+}
+
+.lens1-notch1, .lens1-notch2, .lens1-notch3, .lens1-notch4, .lens1-notch5, .lens1-notch6, .lens1-notch7, .lens1-notch8, .lens1-notch9, .lens1-notch10, .lens1-notch11, .lens1-notch12, .lens1-notch13, .lens1-notch14, .lens1-notch15, .lens1-notch16, .lens1-notch17, .lens1-notch18, .lens1-notch19, .lens1-notch20, .lens1-notch21, .lens1-notch22, .lens1-notch22, .lens1-notch23 {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation-delay: 2s;
+}
+
+.flash-plate2, .flash-plate1 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation-delay: 4.8s;
+}
