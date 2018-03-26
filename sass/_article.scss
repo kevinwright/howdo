@@ -9,6 +9,16 @@
   }
 }
 
+.animation-hero {
+  margin: 0 auto;
+  display: block;
+	position: relative;
+	height: auto;
+  width: 35vw;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
 .howdo-article:last-of-type {
   border-bottom: none;
 }
@@ -60,6 +70,10 @@
     background-size: 50%;
     background-position: center right;
   }
+
+  .animation-hero {
+    width: 50vw;
+  }
 }
 
 @media (max-width: 40em) {
@@ -71,6 +85,10 @@
 
   .article {
     font-size: 0.95rem;
+  }
+
+  .animation-hero {
+    width: 80vw;
   }
 
 }
