@@ -15,10 +15,14 @@ header, .howdo-article, footer, .about {
 
 .wrapper-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   height: 100%;
   padding: 2rem 2rem;
   flex-direction: column;
+
+  .heading-large-article {
+    flex: 1 1 auto;
+  }
 
   .credit {
     align-items: flex-end;
