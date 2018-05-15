@@ -38,11 +38,11 @@
 		<ul id="menu" class="desktop">
 			<li data-menuanchor="intro"><a href="#intro">Intro</a></li>
 			<li data-menuanchor="shutter"><a href="#shutter">Shutters</a></li>
+			<li data-menuanchor="pixels"><a href="#pixels">Pixels</a></li>
 			<li data-menuanchor="colours"><a href="#colours">Colour</a></li>
-			<!-- <li data-menuanchor="request"><a href="#request">Request</a></li>
-			<li data-menuanchor="internet"><a href="#internet">Internet</a></li>
+			<!-- <li data-menuanchor="internet"><a href="#internet">Internet</a></li>
 			<li data-menuanchor="servers"><a href="#servers">Servers</a></li>
-			<li data-menuanchor="end"><a href="#end">End</a></li>  -->
+			<li data-menuanchor="end"><a href="#end">End</a></li> -->
 		</ul>
 	</nav>
 
@@ -263,12 +263,25 @@
 				</div>
 			</section>
 
+			<section id="" class="section" data-anchor="pixels">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-6 large-6 small-12 columns">
+							<p>When the light enters the camera, it is captured on a sensor (or in a film camera on a bit of film). A sensor is made up of thousands </p>
+							<ul class="section-nav">
+								<li class="back">Back</li>
+								<li class="next">Next</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section id="" class="section" data-anchor="colours">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>When you press the button to take a picture, a cameras shutter opens to let in light and then closes. This creates a photo. The amount of time the shutter stays open depends on the amount of light.</p>
-							<p>Lots of light means the shutter will open and close fast. Less light means the shutter stays open longer to let in as much light as possible.</p>
+							<p>The light the camera captures is in the three primary colours. Red, blue and green.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -302,7 +315,7 @@
 		<script>
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors: ['','intro', 'shutter', 'colours'],
+					anchors: ['','intro', 'shutter', 'pixels', 'colours'],
 					menu: '#menu'
 				});
 			});
