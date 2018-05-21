@@ -47,6 +47,7 @@
 	<nav class="inpage-nav">
 		<ul id="menu" class="desktop">
 			<li data-menuanchor="intro"><a href="#intro">Intro</a></li>
+			<li data-menuanchor="lens"><a href="#lens">Lens</a></li>
 			<li data-menuanchor="shutter"><a href="#shutter">Shutters</a></li>
 			<li data-menuanchor="pixels"><a href="#pixels">Pixels</a></li>
 			<li data-menuanchor="colours"><a href="#colours">Colour</a></li>
@@ -73,7 +74,7 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>Camera's - whether a film camera or a digital camera on an iPhone - work by capturing light. They record light levels and turn this information into a photo.</p>
+							<p>All camera's - whether a film camera or a digital camera on an iPhone - work by capturing light. They record the amount of light they capture and turn this information into an image.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -260,11 +261,26 @@
 				</div>
 			</section>
 
+			<section id="" class="section" data-anchor="lens">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-6 large-6 small-12 columns">
+							<p>Light first enters a camera through a lens. A lens is made of curved glass which directs the light onto the sensor or film. The glass in a lens can usually move. It moves closer or further from the sensor or film which makes the image sharp.</p>
+							<p>Light reflects off objects in all directions, not just into the camera lens. The lens job is to take the light of a subject and make it hit the sensor or film in one single point, making the image subject sharp.</p>
+							<ul class="section-nav">
+								<li class="back">Back</li>
+								<li class="next">Next</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section id="" class="section" data-anchor="shutter">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>When you press the button to take a photo, the camera shutter opens to let in light and then closes. The amount of time the shutter stays open depends on the amount of light the camera needs to make a picture.</p>
+							<p>When you press the button to take a photo, the camera shutter opens to let light onto the sensor or film. It then closes. The amount of time the shutter stays open depends on the amount of light the camera needs to make a picture.</p>
 							<p>Lots of light means the shutter will open and close fast. Less light means the shutter stays open longer to let in as much light as possible.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
@@ -343,7 +359,7 @@
 		<script>
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors: ['','intro', 'shutter', 'pixels', 'colours', 'photograph'],
+					anchors: ['', 'intro', 'lens', 'shutter', 'pixels', 'colours', 'photograph'],
 					menu: '#menu'
 				});
 			});
