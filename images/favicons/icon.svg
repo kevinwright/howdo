@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="196px" viewBox="0 0 196 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG version</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Favicons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVG-version">
+            <g id="Rocket-Copy" transform="translate(102.933180, 90.567739) rotate(-315.000000) translate(-102.933180, -90.567739) translate(27.933180, -23.432261)">
+                <polygon id="rocket-engine" fill="#000000" points="50.3528587 168.486603 45.8099883 181.350324 105.531982 181.350324 100.827757 168.183678"></polygon>
+                <path d="M115.255277,165.967898 L35.0559447,166.76195 C35.0559447,166.76195 33.4678391,28.5967636 74.7585846,0.0108628833 C74.7585846,0.0108628833 115.255277,27.8027108 115.255277,165.967898 Z M74.7295848,98.1148128 C85.5073387,98.1148128 94.2444345,89.377717 94.2444345,78.5999632 C94.2444345,67.8222093 85.5073387,59.0851135 74.7295848,59.0851135 C63.9518309,59.0851135 55.2147351,67.8222093 55.2147351,78.5999632 C55.2147351,89.377717 63.9518309,98.1148128 74.7295848,98.1148128 Z" id="Combined-Shape" fill="#000000"></path>
+                <path d="M37.8159535,112.221933 L11.4826623,121.62668 L0.196966139,173.823025 L35.9350041,166.769465 C35.9350041,166.769465 35.8189959,153.096595 36.4052414,139.495699 C36.9945893,125.82283 37.8159535,112.221933 37.8159535,112.221933 Z" id="left-wing" fill="#000000"></path>
+                <path d="M149.021832,110.781586 L123.041458,120.919573 L111.755762,173.115918 L148.22778,165.571229 C148.22778,165.571229 147.377792,152.389489 147.964037,138.788592 C148.553385,125.115723 149.021832,110.781586 149.021832,110.781586 Z" id="right-wing" fill="#000000" transform="translate(130.388797, 141.948752) scale(-1, 1) translate(-130.388797, -141.948752) "></path>
+                <path d="M67.5745803,190.751569 L67.5745803,216.614623" id="trail-2" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M95.6485862,195.453943 L95.6485862,221.316996" id="trail-5" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M76.1839421,190.751569 L76.1839421,223.910805" id="trail-3" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M85.5419441,194.278349 L85.5419441,227.194963" id="trail-4" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M57.4679382,192.867637 L57.4679382,225.784251" id="trail-1" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
