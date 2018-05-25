@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Rocket Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-81.000000, -163.000000)">
+            <g id="Rocket-Copy" transform="translate(99.642148, 179.039093) rotate(-315.000000) translate(-99.642148, -179.039093) translate(79.642148, 157.039093)">
+                <polygon id="rocket-engine" stroke="#F1D3D3" stroke-width="0.5" fill="#182E8B" points="15.2902678 32.3853719 14.4149155 34.8640443 25.92257 34.8640443 25.0161268 32.3270023"></polygon>
+                <path d="M16.9181638,34.1514774 L5.8827895,23.3324829 C5.8827895,23.3324829 24.4914599,4.29105269 34.0121751,6.0220918 C34.0121751,6.0220918 35.7432142,15.326427 16.9181638,34.1514774 Z" id="Path-5" stroke="#F1D3D3" stroke-width="0.5" fill="#182E8B" transform="translate(19.968368, 20.031156) rotate(-45.000000) translate(-19.968368, -20.031156) "></path>
+                <path d="M12.8745686,21.8163997 L7.80048456,23.6285725 L5.62587711,33.686132 L12.512134,32.3270023 C12.512134,32.3270023 12.4897807,29.6924175 12.6027427,27.071701 C12.7163024,24.4371162 12.8745686,21.8163997 12.8745686,21.8163997 Z" id="left-wing" stroke="#F1D3D3" stroke-width="0.5" fill="#182E8B"></path>
+                <path d="M34.7112517,21.6751138 L29.7051702,23.6285725 L27.5305628,33.686132 L34.558248,32.2323682 C34.558248,32.2323682 34.3944664,29.6924175 34.5074283,27.071701 C34.620988,24.4371162 34.7112517,21.6751138 34.7112517,21.6751138 Z" id="right-wing" stroke="#F1D3D3" stroke-width="0.5" fill="#182E8B" transform="translate(31.120907, 27.680623) scale(-1, 1) translate(-31.120907, -27.680623) "></path>
+                <path d="M21.2695467,37.5020504 L21.2695467,43.1016773" id="trail-4" stroke="#182E8B" stroke-width="0.5" stroke-linecap="square"></path>
+                <path d="M17.0415486,36.6174263 L17.0415486,41.8981478" id="trail-1" stroke="#182E8B" stroke-width="0.5" stroke-linecap="square"></path>
+                <circle id="window" stroke="#182E8B" stroke-width="2" fill="#F1D3D3" cx="19.9873471" cy="15.3378816" r="3.76025871"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

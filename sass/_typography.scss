@@ -6,7 +6,7 @@ body {
   background-color: $white;
 }
 
-.heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header, .heading-medium-article  {
+.heading-xlarge, .heading-large-article, .heading-large, .heading-medium, .main-header, .heading-medium-article, .heading-learning  {
   font-family: "omnes-pro",sans-serif;
   font-weight: 700;
 }
@@ -39,6 +39,18 @@ body {
 
 .heading-medium {
   font-size: 2rem;
+}
+
+.heading-learning {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.heading-learning::before {
+  content:url('../images/learning-heading.svg');
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 a {
@@ -90,7 +102,7 @@ a:hover {
     font-size: 2rem;
   }
 
-  .heading-medium {
+  .heading-medium, .heading-learning {
     font-size: 1.5rem;
   }
 }

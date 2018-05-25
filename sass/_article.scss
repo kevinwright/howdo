@@ -45,6 +45,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
+  font-size: 1.1rem;
 
   .copywrite {
     padding-top: 1rem;
@@ -52,12 +53,20 @@
     align-self: flex-end;
   }
 
-  .end-navigation-options {
-    margin: 3rem 0;
+  .section-end {
+    margin-bottom: 30px;
+
+    p, ul.list {
+      margin-top: 5px;
+    }
+
+    ul li {
+      padding-bottom: 6px;
+    }
   }
 
-  .end-paragraph {
-    margin-top: 4rem;
+  .end-navigation-options {
+
   }
 }
 
