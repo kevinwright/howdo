@@ -3,6 +3,7 @@
 <head>
 	<script src="https://use.typekit.net/jgg7bqt.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
 	<meta charset="utf-8"
 	<meta name="description" content="How do websites work">
 	<meta name="keywords" content="education, technology, STEM, science, engineering, maths">
@@ -102,7 +103,7 @@
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
 							<p>Websites are made up of words and images, all bundled up in files. The computer that stores these files could be anywhere in the world, but your computer can still talk to it because the internet connects them.</p>
-							<p>When you type in a web address (like <a href="http://www.bbc.co.uk/newsround">www.wikipedia.org</a>), your computer is sent all the files by cables or wirelessly. And shows all the files in a way that is easy to view.</p>
+							<p>When you type in a web address (like <a href="http://www.bbc.co.uk/newsround">wikipedia.org</a>), your computer is sent all the files by cables or <span class="tooltip" title="Like your home wifi or mobile network">wirelessly</span>. And shows all the files in a way that is easy to view.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -164,7 +165,7 @@
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
 							<p>I hit enter. Computers can talk because they’re connected to the internet – a network of computers, phones, and cables that covers the whole world.</p>
-							<p>My iPad knows where the other computer is because everything connected to the internet has its own address – called an IP address.</p>
+							<p>My iPad knows where the other computer is because everything connected to the internet has its own address – called an <span class="tooltip" title="IP addresses give each computer a unique identity - they look a bit like this 192.168.0.1. Websites keep track of which computers visit them using their IP.">IP address</span>.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -178,7 +179,7 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>When the Wikipedia computer (which is called a server) receives the request for files, it grabs them and sends them back.</p>
+							<p>When the Wikipedia computer (which is called a <span class="tooltip" title="Servers are similar to your computer at home but are specially designed to hold files. And are always on so they can send and receive files.">server</span>) receives the request for files, it grabs them and sends them back.</p>
 							<p>My browser then takes those files, and figures out how to build and display them.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
@@ -251,5 +252,15 @@
 			  $.fn.fullpage.moveSectionDown();
 			});
 		</script>
+		<script>
+			tippy('.tooltip', {
+				arrow: true,
+			  arrowType: 'round',
+			  size: 'large',
+				duration: 500,
+			  animation: 'scale'
+			})
+		</script>
+
 </body>
 </html>
