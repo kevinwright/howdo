@@ -48,6 +48,15 @@ a.button-secondary {
   height: auto;
 }
 
+.tooltip {
+  box-shadow: inset 0 -2px 0 0 $black;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  padding: 0 3px;
+  cursor: pointer;
+}
+
 ul, ol {
   list-style-type: none;
   padding: 0;
