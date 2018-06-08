@@ -98,6 +98,11 @@
     padding-bottom: .2rem;
   }
 
+  .next a, .back a {
+    border: none;
+    color: $black;
+  }
+
   .next::after {
     content: url('../images/arrow.svg');
     transform: rotate(270deg);
