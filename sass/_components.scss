@@ -30,7 +30,25 @@
     border: 2px solid $blue;
 }
 
-a.button-secondary {
+.button-secondary-dark {
+    cursor: pointer;
+    color: $lightgrey;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    font-family: "omnes-pro",sans-serif;
+    white-space: nowrap;
+    padding: 5px 10px;
+    line-height: 1.6;
+    border-radius: 1px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border: 2px solid $lightgrey;
+}
+
+a.button-secondary, a.button-secondary-dark {
   text-decoration: none;
 }
 
