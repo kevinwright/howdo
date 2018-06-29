@@ -1,13 +1,13 @@
 footer {
   font-size: 1.1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: $blue;
-  color: $white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #DDD;
+  color: $black;
 
   a {
-    color: $white;
-    text-decoration: underline;
+    color: $blue;
+    text-decoration: none;
   }
 
   ul {
@@ -20,7 +20,7 @@ footer {
   }
 
   a:hover {
-    color: $midgrey;
+    color: $darkblue;
   }
 
   p.copywrite {
