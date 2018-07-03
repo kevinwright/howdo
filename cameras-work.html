@@ -62,8 +62,7 @@
 			<li data-menuanchor="pixels"><a href="#pixels">Pixels</a></li>
 			<li data-menuanchor="colours"><a href="#colours">Colour</a></li>
 			<li data-menuanchor="photograph"><a href="#photograph">Photograph</a></li>
-			<!-- <li data-menuanchor="servers"><a href="#servers">Servers</a></li>
-			<li data-menuanchor="end"><a href="#end">End</a></li> -->
+			<li data-menuanchor="film"><a href="#film">Film cameras</a></li>
 		</ul>
 	</nav>
 
@@ -275,12 +274,19 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>Light first enters a camera through a lens. A lens is made of curved glass which directs the light onto the sensor or film. The glass in a lens can usually move. It moves closer or further from the sensor or film to make an image sharp.</p>
-							<p>Light reflects off objects in all directions, not just into the camera lens. The lens job is to take the light of a subject and make it hit the sensor or film at a single point, making the image sharp.</p>
+							<p>Light first enters a camera through a lens. A lens is made of curved glass which directs the light onto the sensor or film. The glass in a lens can sometimes move. This allows the camera to get closer to a subject or further away.</p>
+							<p>Light reflects off objects in all directions. A lenses job is to take the light of a subject and direct it to the sensor at a single point, making an image sharp.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
 							</ul>
+						</div>
+						<div class="medium-6 large-6 small-12 columns">
+							<div class="animation-hero">
+							  <div class="camera">
+									<img src="images/camera/lightbulb.svg" alt="" class="article-image">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -305,7 +311,7 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>When the light enters the camera, through the lens and shutter, it is captured on a sensor (or film in a film camera). A sensor is made up of millions of pixels, little squares which each record how much light hits them and the colour of the light.</p>
+							<p>When light enters the camera through the lens, it is captured on a sensor. A sensor is made up of millions of pixels, little squares which each record how much light hits them and the colour of the light.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -320,7 +326,7 @@
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
 							<p>The light that hits each pixel is made up of the three primary colours. Red, blue and green. For example blue sky in a photo is made up of thousands of pixels picking up different shades of blue.</p>
-							<p>Each pixel records the light and colour and gives it a number. This number is a record pf the amount of red, green and blue (RGB for short) for that single pixel. The RGB number for blue for example would be R=0, G=0, B=255.</p>
+							<p>Each pixel records the light and colour and gives it a number. This number is a record of the amount of red, green and blue (RGB for short) for that single pixel. The RGB number for blue for example would be R=0, G=0, B=255.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -334,8 +340,21 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-6 large-6 small-12 columns">
-							<p>The camera receives all this information from the sensor and shows the photo digitally back to you. </p>
-							<p>Film cameras work in a really similar way. But instead of a sensor picking up the colours in light, a film which contains light sensitive crystals captures the chemical change to the crystals. It can then be developed into a photograph.</p>
+							<p>The camera receives all this information from the sensor and shows the photo digitally back to you.</p>
+							<ul class="section-nav">
+								<li class="back">Back</li>
+								<li class="next">Next</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="" class="section" data-anchor="film">
+				<div class="wrapper">
+					<div class="row">
+						<div class="medium-6 large-6 small-12 columns">
+							<p>Film cameras work in a really similar way. But instead of a sensor capturing the the colours of light, a film which contains light sensitive crystals captures the chemical change to the crystals. It can then be developed into a photograph.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -378,7 +397,7 @@
 		<script>
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors: ['', 'intro', 'lens', 'shutter', 'pixels', 'colours', 'photograph'],
+					anchors: ['', 'intro', 'lens', 'shutter', 'pixels', 'colours', 'photograph', 'film'],
 					menu: '#menu'
 				});
 			});

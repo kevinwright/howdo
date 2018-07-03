@@ -61,6 +61,11 @@ a.button-secondary, a.button-secondary-dark {
   background: darken( $blue, 12% );
 }
 
+.article-image {
+  max-width: 60%;
+  height: auto;
+}
+
 .image {
   max-width: 100%;
   height: auto;
@@ -90,6 +95,12 @@ hr {
       font-size: 1.1rem;
       padding: 2px 7px;
       border: 2px solid $blue;
+  }
+
+  .article-image {
+    max-width: 60%;
+    margin-top: 20px;
+    height: auto;
   }
 
 }
