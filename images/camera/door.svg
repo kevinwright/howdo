@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1430px" height="1055px" viewBox="0 0 1430 1055" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Door</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1038.11789,454.032303 C1038.11789,454.032303 1012.97828,417.058989 1038.11789,377.127809" id="path-1"></path>
+        <filter x="-40.3%" y="-5.9%" width="180.6%" height="118.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Cameras" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-279.000000, -139.000000)">
+            <g id="Door" transform="translate(279.000000, 141.000000)">
+                <polygon id="Path-11" fill="#FFFFFF" points="517.580145 766.087079 514.622544 79.8623596 933.123061 84.2991573 925.729059 757.213483 1268.81075 1053 106.47363 1035.25281"></polygon>
+                <polygon id="Path-13" stroke="#000000" stroke-width="2" points="931.644261 87.2570225 1060.2999 0 1048.46949 854.823034 927.207859 757.213483"></polygon>
+                <polyline id="Path-15" stroke="#000000" stroke-width="2" points="0 760.171348 517.580145 763.129213 511.664943 75.4255618 934.601861 82.8202247 925.729059 757.213483"></polyline>
+                <path d="M1052.90589,767.566011 L1430,770.523876" id="Path-12" stroke="#000000" stroke-width="2"></path>
+                <g id="Path-16">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#000000" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
