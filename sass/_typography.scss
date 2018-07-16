@@ -6,7 +6,7 @@ body {
   background-color: $white;
 }
 
-.heading-xlarge, .heading-large-article, .heading-large-article-dark, .heading-large, .heading-medium, .main-header, .heading-medium-article, .heading-learning  {
+.heading-xlarge, .heading-large-article, .heading-large-article-dark, .heading-large, .heading-medium, .main-header, .heading-medium-article, .heading-learning, .heading-small  {
   font-family: "omnes-pro",sans-serif;
   font-weight: 700;
 }
@@ -49,6 +49,12 @@ body {
 
 .heading-medium {
   font-size: 2rem;
+}
+
+.heading-small {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .heading-learning {

@@ -1,9 +1,14 @@
 footer {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   background-color: #DDD;
   color: $black;
+
+  .cw-logo {
+    width: auto;
+    height: 30px;
+  }
 
   a {
     color: $blue;
@@ -19,6 +24,14 @@ footer {
     }
   }
 
+  .list-inline li {
+    display: inline;
+  }
+
+  .list-inline li:first-child {
+    padding-right: 20px;
+  }
+
   a:hover {
     color: $darkblue;
   }
@@ -29,10 +42,16 @@ footer {
   }
 }
 
-@media (max-width: 45em) {
+@media (max-width: 640px) {
 
   footer {
     font-size: 0.9rem;
+
+    .column-top-margin {
+      margin-top: 20px;
+      padding-top: 30px;
+      border-top: #ccc solid 1px;
+    }
   }
 
 }
