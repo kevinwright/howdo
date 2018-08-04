@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1731px" height="1055px" viewBox="0 0 1731 1055" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1512px" height="1083px" viewBox="0 0 1512 1083" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Door</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M1038.11789,454.032303 C1038.11789,454.032303 1012.97828,417.058989 1038.11789,377.127809" id="path-1"></path>
-        <filter x="-40.3%" y="-5.9%" width="180.6%" height="118.2%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
-            <feOffset dx="0" dy="5" in="shadowInner" result="shadowInner"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Cameras" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-3" transform="translate(-135.000000, -139.000000)">
-            <g id="Door" transform="translate(279.000000, 141.000000)">
-                <polygon id="Path-11" fill="#FFFFFF" points="517.580145 766.087079 514.622544 79.8623596 933.123061 84.2991573 925.729059 757.213483 1268.81075 1053 106.47363 1035.25281"></polygon>
-                <polygon id="Path-13" stroke="#000000" stroke-width="2" points="931.644261 87.2570225 1060.2999 0 1048.46949 854.823034 927.207859 757.213483"></polygon>
-                <polyline id="Path-15" stroke="#000000" stroke-width="2" points="0 760.171348 517.580145 763.129213 511.664943 75.4255618 934.601861 82.8202247 925.729059 757.213483"></polyline>
-                <path d="M1052.90589,767.566011 L1430,770.523876" id="Path-12" stroke="#000000" stroke-width="2"></path>
-                <g id="Path-16">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use stroke="#000000" stroke-width="4" xlink:href="#path-1"></use>
+        <g id="Artboard-Copy-3" transform="translate(-275.000000, -154.000000)">
+            <g id="Group" transform="translate(275.000000, 156.000000)">
+                <g id="Door" transform="translate(8.000000, 0.000000)">
+                    <polygon id="Path-11" fill="#FFFFFF" points="510.622544 760 510.622544 64.8623596 929.123061 69.2991573 929.123061 760 1342 1081 144 1081"></polygon>
+                    <polygon id="Path-13" stroke="#000000" stroke-width="2" points="931.207859 68 1064.2999 0 1052.46949 854.823034 931.207859 760"></polygon>
+                    <polyline id="Path-15" stroke="#000000" stroke-width="2" points="0 760 507.664943 760 507.664943 60.4255618 930.601861 67.8202247 930.601861 760"></polyline>
+                    <path d="M1065.7142,760 L1503.03037,760" id="Path-12" stroke="#000000" stroke-width="2"></path>
+                    <path d="M1033,439 L999,423 C994.553811,422.084608 995,428 999,432 L1033,449 L1042,449 L1042,439 L1033,439 Z" id="Path-2" stroke="#000000"></path>
                 </g>
+                <polyline id="Path-44" stroke="#000000" points="462 758 458 15 988 22 988 39"></polyline>
+                <path d="M11,705 L461.004444,705" id="Path-45" stroke="#000000"></path>
+                <path d="M12,714 L460.001116,714" id="Path-47" stroke="#000000"></path>
+                <path d="M1073.7142,713.5 L1510.05315,713.5" id="Path-47" stroke="#000000"></path>
+                <path d="M1072.74023,704.5 L1511.03036,704.5" id="Path-45" stroke="#000000"></path>
+                <polyline id="Path-46" stroke="#000000" points="504 757 504 46.9992958 947 57"></polyline>
+                <polyline id="Path-48" stroke="#000000" stroke-width="2" points="1061 855 1071.5 855 1081 -5.68434189e-14 1071.5 -5.68434189e-14"></polyline>
+                <rect id="Rectangle-4" stroke="#000000" stroke-width="3" x="2.03125" y="143.5" width="347.46875" height="241.949219"></rect>
+                <polygon id="Path-16" stroke="#000000" points="12.5866861 154.022048 12.5866861 374.973169 338.945843 374.973169 338.945843 154.01693 18.613231 154.01693"></polygon>
+                <path d="M1036,436 C1036,436 1037,431 1046,431 C1055,431 1055,444 1055,444 C1055,444 1055,454 1046,454 C1037,454 1035,446 1035,446" id="Path-51" stroke="#000000"></path>
             </g>
         </g>
     </g>
