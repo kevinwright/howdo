@@ -1,0 +1,26 @@
+.section-full {
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center!important;
+}
+
+@media (max-width: 70em) {
+
+  .section-full {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
+
+@media (max-width: 40em) {
+
+  .section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+}

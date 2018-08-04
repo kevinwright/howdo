@@ -34,28 +34,22 @@
 	<link rel="icon" href="favicon.ico">
 
 	<style>
+		body, .back, .next {
+			color: #FFFFFF;
+		}
+
+		#heading {
+			background-image: url('images/universe/space.jpg');
+		}
+
 		#begin {
-			background-image: url('images/websites/send.png');
+			background-image: url('images/universe/earth2.jpg');
 		}
+
 		#section1 {
-			background-image: url('images/websites/your-ipad-small.png');
+			background-image: url('images/universe/comet.jpg');
 		}
-		#section2 {
-			background-image: url('images/websites/html-small.png');
-			background-size: 55%;
-		}
-		#section3 {
-			background-image: url('images/websites/server-small.png');
-		}
-		#section4 {
-			background-image: url('images/websites/network.png');
-		}
-		#section5 {
-			background-image: url('images/websites/build.png');
-		}
-		#section6 {
-			background-image: url('images/websites/wikipedia-small.png');
-		}
+
 		#sectionend {
 			background-color: #DDD;
 		}
@@ -83,27 +77,27 @@
 
 		<div role="main" id="fullpage">
 
-			<section id="heading" class="section">
+			<section id="heading" class="section section-full">
 				<div class="wrapper-header">
 					<div class="row">
 						<div class="medium-12 large-9 small-12 columns">
-							<h1 class="heading-large-article-dark">How big is the universe?</h1>
+							<h1 class="heading-large-article-dark">How big is the Universe?</h1>
 							<a id="start" class="button-secondary-dark">Find out</a>
 						</div>
 					</div>
-					<!-- <ul class="credit">
-						<li>Illustration by <a href="https://twitter.com/ctdesign" target="_blank">Chris Taylor</a></li>
-						<li>Content review by <a href="https://twitter.com/martinwake" target="_blank">Martin Wake</a></li>
-					</ul> -->
+					<ul class="credit">
+						<li>All imagery courtesy of <a href="https://www.nasa.gov/">NASA</a> and <a href="https://unsplash.com/">unsplash</a></li>
+					</ul>
 				</div>
 			</section>
 
-			<section id="begin" class="section" data-anchor="intro">
+			<section id="begin" class="section section-full" data-anchor="earth">
 				<div class="wrapper">
 					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>Websites are made up of words and images, all bundled up in files. The computer that stores these files could be anywhere in the world, but your computer can still talk to it because the internet connects them.</p>
-							<p>When you type in a web address like wikipedia.org, your computer is sent all the files by cables or wirelessly. And shows all the files in a way that is easy to view.</p>
+						<div class="medium-9 large-9 small-12 columns">
+							<h2 class="heading-medium">Earth</h2>
+							<p>To understand the size of the universe, we need to start with our home. Earth.</p>
+							<p>Earth is the only habitable planet in the known universe. It is 24,900 miles around at the equator.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -113,13 +107,14 @@
 				</div>
 			</section>
 
-			<section id="section1" class="section" data-anchor="wikipedia" aria-label="Girl sitting on her couch with her iPad">
+			<section id="section1" class="section section-full" data-anchor="wikipedia" aria-label="Girl sitting on her couch with her iPad">
 				<div class="wrapper">
 					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>Our story starts with homework. Where every good story starts...</p>
-							<p>We have to write a story about the Romans - by tomorrow morning. And we don’t know anything about the Romans.</p>
-							<p>Let’s go to Wikipedia. That’s always a good place to start.</p>
+						<div class="medium-9 large-9 small-12 columns">
+							<h2 class="heading-medium">Measuring in space</h2>
+							<p>Metres, miles, yards. Those measures won't work in space. Everything is too big, so scientists use something called a light year. From the name, you might think light years measure time but it actually measures distance.</p>
+							<p>A light year is the distance light travels in one year. Light travels at 186,282 miles per second so a light year measures 5.8 trillion miles.</p>
+							<p>To put that in perspective, at the speed of light, you could travel around the Earth 7.5 times, in one second.</p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -129,13 +124,24 @@
 				</div>
 			</section>
 
-			<section id="section2" class="section" data-anchor="browsers" aria-label="Wikipedia with HTML code coming out of the page">
+			<section id="section2" class="section section-full" data-anchor="browsers" aria-label="Wikipedia with HTML code coming out of the page">
 				<div class="wrapper">
 					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>I open up the browser on my iPad. A browser is really good at reading and showing website files.</p>
-							<p>Most websites are written in a language called HTML.</p>
-							<p>Using HTML, people give meaning to words by tagging them. So a computer can read them. For example, you can create a paragraph by putting a &#x3C;p&#x3E; tag around words.</p>
+						<div class="medium-9 large-9 small-12 columns">
+							<h2 class="heading-medium">Our solar system</h2>
+							<p>Solar System's are planets and stars bound together by gravity. Earth shares a solar system with 7 other planets and a star. We call the star in our solar system the sun.</p>
+							<p>The size of our Solar System means we still can't use light years to measure distances. But we can still measure the distances between the planets in our Solar system using the speed of light. The distanceof the planets from the sun:</p>
+							<ul>
+								<li>Mercury - 3 minutes</li>
+								<li>Venus - 6 minutes</li>
+								<li>Earth</li>
+								<li>Mars</li>
+								<li>Jupiter</li>
+								<li>Saturn</li>
+								<li>Uranus</li>
+								<li>Neptune</li>
+							</ul>
+
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -148,9 +154,9 @@
 			<section id="section3" class="section" data-anchor="request" aria-label="An iPad with Wikipedia open">
 				<div class="wrapper">
 					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>I start to type Wikipedia into the box at the top of my browser. Look at that, my super-smart browser suggests Wikipedia.</p>
-							<p>There is a computer somewhere in the world that holds the files for Wikipedia. As soon as I press enter, my iPad will send a message to this computer asking for all the files it needs to show Wikipedia’s home page.</p>
+						<div class="medium-9 large-9 small-12 columns">
+							<h2 class="heading-medium">The milky way</h2>
+							<p></p>
 							<ul class="section-nav">
 								<li class="back">Back</li>
 								<li class="next">Next</li>
@@ -160,69 +166,27 @@
 				</div>
 			</section>
 
-			<section id="section4" class="section" data-anchor="internet">
-				<div class="wrapper">
-					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>I hit enter. Computers can talk because they’re connected to the internet – a network of computers, phones, and cables that covers the whole world.</p>
-							<p>My iPad knows where the other computer is because everything connected to the internet has its own address – called an IP address. IP addresses give each computer a unique identity.</p>
-							<ul class="section-nav">
-								<li class="back">Back</li>
-								<li class="next">Next</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
 
-			<section id="section5" class="section" data-anchor="servers">
-				<div class="wrapper">
-					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>When the Wikipedia computer receives the request for files, it grabs them and sends them back.</p>
-							<p>This type of computer is called a server. A server is specially designed to hold files. And they are always on so they can send and receive files at any time.</p>
-							<p>My browser then takes those files, and figures out how to build and display them.</p>
-							<ul class="section-nav">
-								<li class="back">Back</li>
-								<li class="next">Next</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="section6" class="section" data-anchor="end">
-				<div class="wrapper">
-					<div class="row">
-						<div class="medium-6 large-6 small-12 columns">
-							<p>And Wikipedia is there. On my Ipad.</p>
-							<p>The whole process takes seconds in real life. Information travels around the internet at the speed of light. So it can travel around the world in the time it takes you to blink.</p>
-							<ul class="section-nav">
-								<li class="back">Back</li>
-								<li class="next">Finish</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
 
 			<section id="sectionend" class="section end-article">
 				<div class="wrapper">
 					<div class="row">
-						<div class="medium-9 large-12 small-12 columns">
+						<div class="medium-9 large-9 small-12 columns">
 							<div class="section-end">
 								<h2 class="heading-learning">Keep learning</h2>
 								<ul class="list">
-									<li><a href="http://www.bbc.co.uk/webwise/0/22562353">What is a web browser - BBC</a></li>
-									<li><a href="https://www.vox.com/cards/the-internet/what-is-the-internet">What is the internet - Vox</a></li>
-									<li><a href="https://www.w3schools.com/html/html_intro.asp">An introduction to HTML - W3 schools</a></li>
+									<li></li>
+									<li></li>
+									<li></li>
 								</ul>
 							</div>
 							<div class="section-end">
-								<h2 class="heading-medium" style="margin-bottom:0;">Help</h2>
-								<p class="end-paragraph">Suggest an improvement to our work. Or a subject you would like us to write about.</p>
-								<a href="mailto:info@justgooddesign.co" class="button-secondary">Email us</a>
-								<a href="https://github.com/justgooddesignco/howdo" class="button-secondary">Suggest changes on GitHub</a>
+								<h2 class="heading-medium" style="margin-bottom:0;">Contribute</h2>
+								<p><a href="mailto:info@justgooddesign.co">Email us</a> to suggest an improvement to our work.<br>Or contribute to How Do on <a href="https://github.com/justgooddesignco/howdo">GitHub</a>.</p>
+								<div class="end-cw">
+									<img src="images/cw_logo.svg" alt="Charity: water logo"/ class="cw-logo">
+									<p>We support Charity: water to bring water to people in need. If How Do has helped, please consider <a href="https://www.charitywateruk.org/">donating</a>.</p>
+								</div>
 							</div>
 							<div class="section-end">
 								<p class="copywrite">© 2018 - created by <a href="http://justgooddesign.co/">Just Good</a></p>
