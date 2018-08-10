@@ -1,4 +1,4 @@
-header, .howdo-article, footer, .about {
+header, footer, .about, .list-card {
   padding: 0 4rem;
 }
 
@@ -45,7 +45,7 @@ header, .howdo-article, footer, .about {
 
 @media (max-width: 45em) {
 
-  header, .howdo-article, footer, .about {
+  header, footer, .about, .list-card {
     padding: 0 1.4rem;
   }
 
