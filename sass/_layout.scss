@@ -1,5 +1,9 @@
-header, footer, .about, .list-card {
+header, footer, .about {
   padding: 0 4rem;
+}
+
+.list-card {
+  padding: 0 2rem;
 }
 
 .about {
@@ -45,8 +49,12 @@ header, footer, .about, .list-card {
 
 @media (max-width: 45em) {
 
-  header, footer, .about, .list-card {
+  header, footer, .about {
     padding: 0 1.4rem;
+  }
+
+  .list-card {
+    padding: 0;
   }
 
   .wrapper, {
