@@ -1,10 +1,9 @@
 .hero {
   background-color: $pink;
-  height: 100vh;
+  height: 70vh;
   text-align: center;
   background-size: cover;
   background-position: center center;
-  // background-image: url(../images/pattern.svg);
   display: flex;
   flex-direction: column;
 }
@@ -13,19 +12,9 @@
   padding: 5rem 0 3rem 0;
 
   img {
-    height: 90px;
+    height: 70px;
     width: auto;
   }
-}
-
-.animation {
-  margin: 0 auto;
-  display: block;
-	position: relative;
-	height: 50vh;
-  width: 20vw;
-	vertical-align: middle;
-	overflow: hidden;
 }
 
 .header-svg {
@@ -36,17 +25,79 @@
 }
 
 .intro {
-  padding-bottom: 2rem;
-  font-family: "omnes-pro",sans-serif;
+  padding-bottom: 3rem;
+  font-family: "aktiv-grotesk",sans-serif;
 
   p {
-    color: $blue;
-    line-height: 1.8;
+    color: $black;
+    line-height: 1.5;
     padding: 0.1rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline;
   }
 }
+
+.stem {
+  display: flex;
+  justify-content: center;
+
+  .stem-item {
+    padding: 0 1.5rem;
+  	position: relative;
+    height: 30vh;
+    width: 10vw;
+  	overflow: hidden;
+  }
+
+  .stem-item:last-child {
+    padding-right: 0;
+    width: 8vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .stem {
+    .stem-item {
+      width: 13vw;
+      padding: 0 1.2rem;
+    }
+
+    .stem-item:last-child {
+      width: 13vw;
+      padding-right: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .stem {
+    .stem-item {
+      width: 15vw;
+      padding: 0 1.2rem;
+    }
+
+    .stem-item:last-child {
+      width: 15vw;
+      padding-right: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .stem {
+    .stem-item {
+      width: 18vw;
+      padding: 0 0.7rem;
+    }
+
+    .stem-item:last-child {
+      width: 18vw;
+      padding-right: 0.7rem;
+    }
+  }
+}
+
+
 
 @media (max-width: 53em) {
 
@@ -55,7 +106,7 @@
   }
 
   .intro {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 
     p {
       font-size: 1.6rem;
@@ -65,34 +116,11 @@
 }
 
 
-
-// @media (max-width: 60em) and (orientation: landscape) {
-//
-//   .logo {
-//     padding: 3rem 0 1rem 0;
-//
-//     img {
-//       height: 70px;
-//     }
-//
-//   }
-//
-//   .animation {
-//     width: 20vw;
-//   }
-//
-//   .intro {
-//     p {
-//       font-size: 1.4rem;
-//     }
-//   }
-//
-// }
-
 @media (max-width: 40em) {
 
   .hero {
     align-items: center;
+    height: 50vh;
   }
 
   .logo {
@@ -105,11 +133,11 @@
   }
 
   .intro {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-top: 2rem;
 
     p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   }
 }
