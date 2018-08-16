@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Abacus</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" fill-rule="nonzero" fill="#444444">
+            <g transform="translate(7.000000, 12.000000) rotate(-180.000000) translate(-7.000000, -12.000000) translate(0.000000, -0.000000)" id="Shape">
+                <path d="M0.355905294,2.35590529 C0.159344228,2.15934423 0.16140934,1.84306335 0.358302055,1.65162659 L1.69869794,0.348373413 C1.89658271,0.15597209 2.20800365,0.151724339 2.41443027,0.359136164 L14,12 L2.41443027,23.6408638 C2.21702698,23.8392093 1.89559066,23.8430634 1.69869794,23.6516266 L0.358302055,22.3483734 C0.160417294,22.1559721 0.15707612,21.8429239 0.355905294,21.6440947 L10,12 L0.355905294,2.35590529 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
