@@ -12,7 +12,7 @@
 .trail {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  animation-delay: 2.3s;
+  animation-delay: 1.8s;
 }
 
 .rocket-body {
@@ -29,7 +29,7 @@
 .right-wing {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 
 .engine {
@@ -40,66 +40,97 @@
 .window {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 
-// Abacus
-.line1-3, .line1-2, .line1-1, .line2-3, .line2-2, .line2-1, .line2-4, .line3-3, .line3-2, .line3-1, .line4-3, .line4-2, .line4-1, .line4-4, .counter-1, .counter-2, .counter-3, .counter-4, .counter-5, .counter-6, .counter-7, .counter-8, .counter-9, .counter-10, .abacus-body-left, .abacus-body-right, .abacus-body-bottom {
+// Computer
+
+.screen-bttm, .stand-rg, .stand-lf, .stand-bttm, .screen-circle, .screen {
   animation: offset 2s linear forwards;
 }
 
-.line1-3, .line1-2, .line1-1 {
+.screen {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation-delay: 1.2s;
+}
+
+.screen-bttm {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation-delay: 1.2s;
+}
+
+.screen-circle {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
-  animation-delay: 0.5s;
+  animation-delay: 1.2s;
 }
 
-.line2-4, .line2-3, .line2-2, .line2-1 {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation-delay: 0.5s;
-}
-
-.line3-3, .line3-2, .line3-1 {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation-delay: 0.5s;
-}
-
-.line4-3, .line4-2, .line4-1, .line4-4 {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation-delay: 0.5s;
-}
-
-.counter-1, .counter-3, .counter-4, .counter-5, .counter-7, .counter-8, .counter-9 {
-  stroke-dasharray: 250;
-  stroke-dashoffset: 250;
-  animation-delay: 1s;
-}
-
-.counter-2, .counter-6, .counter-10 {
-  stroke-dasharray: 200;
-  stroke-dashoffset: 200;
-  animation-delay: 1.4s;
-}
-
-.abacus-body-left {
-  stroke-dasharray: 800;
-  stroke-dashoffset: 800;
-}
-
-.abacus-body-right {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-}
-
-.abacus-body-bottom {
-  stroke-dasharray: 1400;
-  stroke-dashoffset: 1400;
+.stand-rg, .stand-lf, .stand-bttm {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-delay: 1.2s;
 }
 
 // Bridge
+
+.bridge-base, .post-left, .post-right, .cable, .cable-top, .cable-long {
+  animation: offset 2s linear forwards;
+}
+
+.bridge-base {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation-delay: 2s;
+}
+
+.post-left, .post-right {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation-delay: 2s;
+}
+
+.cable-top {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-delay: 2.2s;
+}
+
+.cable {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation-delay: 5s;
+}
+
+.cable-long {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation-delay: 2.6s;
+}
+
+// Abacus
+.abacus-counter, .abacus-line, .abacus-body {
+  animation: offset 2s linear forwards;
+}
+
+.abacus-counter {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-delay: 2.3s;
+}
+
+.abacus-line {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation-delay: 2.3s;
+}
+
+.abacus-body {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-delay: 2.3s;
+}
 
 // Camera
 
