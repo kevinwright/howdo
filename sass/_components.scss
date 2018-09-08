@@ -15,9 +15,11 @@
    flex-direction: column;
    background-color: #fff;
    font-size: 1.15rem;
-   padding: 1em;
+   margin: 1em;
+   padding-bottom: 30px;
    width: 100%;
    line-height: 1.5;
+   border-bottom: 4px $darkgrey solid;
 
    a.card-link  {
      color: darken( $blue, 5% );
