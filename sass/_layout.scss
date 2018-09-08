@@ -59,8 +59,8 @@ header, footer, .about {
 
   .wrapper, {
     flex-direction: column;
-    align-self: flex-start;
-    padding: 3.7rem 2rem;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
   }
 
   .wrapper-header {
