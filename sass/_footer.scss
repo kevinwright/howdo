@@ -37,6 +37,16 @@ footer {
   }
 }
 
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list {
+  list-style: inherit;
+  padding-left: 20px;
+}
+
 @media (max-width: 640px) {
 
   footer {
