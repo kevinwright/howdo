@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1512px" height="1081px" viewBox="0 0 1512 1081" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cameras" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-275.000000, -156.000000)">
+            <g id="Group" transform="translate(275.000000, 158.000000)">
+                <g id="Door" transform="translate(8.000000, 0.000000)">
+                    <polygon id="Path-11" fill="#FFFFFF" points="510.622544 758 510.622544 62.8623596 658 62.8623596 658 850 537 1079 144 1079"></polygon>
+                    <polygon id="Path-13" stroke="#000000" stroke-width="2" transform="translate(794.172320, 426.411517) scale(-1, 1) translate(-794.172320, -426.411517) " points="657.13678 66 931.207859 0 931.207859 852.823034 657.13678 758"></polygon>
+                    <polyline id="Path-15" stroke="#000000" stroke-width="2" points="0 758 507.664943 758 507.664943 58.4255618 658 62"></polyline>
+                    <path d="M933,758 L1503.03037,758" id="Path-12" stroke="#000000" stroke-width="2"></path>
+                    <path d="M720,441 L686,425 C681.553811,424.084608 682,430 686,434 L720,451 L729,451 L729,441 L720,441 Z" id="Path-2" stroke="#000000" transform="translate(705.915236, 437.952590) rotate(175.000000) translate(-705.915236, -437.952590) "></path>
+                </g>
+                <polyline id="Path-44" stroke="#000000" points="727 13 988 20 988 756"></polyline>
+                <polyline id="Path-44" stroke="#000000" points="462 756 458 13 666 17"></polyline>
+                <path d="M11,703 L461.004444,703" id="Path-45" stroke="#000000"></path>
+                <path d="M12,712 L460.001116,712" id="Path-47" stroke="#000000"></path>
+                <path d="M988,712 L1510.05315,711.5" id="Path-47" stroke="#000000"></path>
+                <path d="M989,703 L1511.03036,702.5" id="Path-45" stroke="#000000"></path>
+                <polyline id="Path-46" stroke="#000000" points="893.713804 53.7970666 947 55 947 755"></polyline>
+                <polyline id="Path-46" stroke="#000000" points="504 755 504 44.9992958 665 49"></polyline>
+                <rect id="Rectangle-4" stroke="#000000" stroke-width="3" x="2.03125" y="141.5" width="347.46875" height="241.949219"></rect>
+                <polygon id="Path-16" stroke="#000000" points="12.5866861 152.022048 12.5866861 372.973169 338.945843 372.973169 338.945843 152.01693 18.613231 152.01693"></polygon>
+                <path d="M686,426 C686,426 687,421 696,421 C705,421 705,434 705,434 C705,434 705,444 696,444 C687,444 685,436 685,436" id="Path-51" stroke="#000000" transform="translate(695.000000, 432.500000) rotate(175.000000) translate(-695.000000, -432.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
