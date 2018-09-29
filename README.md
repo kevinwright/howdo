@@ -1,4 +1,6 @@
 
-## About
+# How do
 
-HowDo is an attempt to explain STEM (Science, technology, engineering and maths) subjects in an easy to understand and accessible way.
+At How Do we believe STEM (science, technology, engineering and maths) represents the worlds best future.
+
+We want to help make STEM available to everyone, regardless of background or gender. 
