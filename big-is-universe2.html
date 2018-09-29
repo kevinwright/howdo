@@ -33,39 +33,13 @@
 	<link rel='mask-icon' href='images/favicons/icon.svg' color='#ff0000'>
 	<link rel="icon" href="favicon.ico">
 
-	<style>
-		body, .back, .next {
-			color: #FFFFFF;
-		}
-
-		#heading {
-			background-image: url('images/universe/space.jpg');
-		}
-
-		#begin {
-			background-image: url('images/universe/earth2.jpg');
-		}
-
-		#section1 {
-			background-image: url('images/universe/comet.jpg');
-		}
-
-		#section2 {
-			background-image: url('images/universe/comet2.jpg');
-		}
-
-		#sectionend {
-			background-color: #DDD;
-		}
-	</style>
-
 </head>
 
 <body class="article" style="background-color: #010101">
 
-		<div role="main" id="fullpage">
+		<div role="main" class="dark-theme">
 
-			<section id="heading" class="section section-full">
+			<section class="vh100 full-page-header" style="background-image: url('images/universe/space.jpg');">
 				<div class="logo-article">
 					<a href="index.html"><img src="images/logo-name.svg" alt="How Do logo" /></a>
 				</div>
@@ -82,7 +56,7 @@
 				</div>
 			</section>
 
-			<section id="begin" class="section section-full" data-anchor="earth">
+			<section class="vh150">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-9 large-9 small-12 columns">
@@ -98,7 +72,7 @@
 				</div>
 			</section>
 
-			<section id="section1" class="section section-full" data-anchor="wikipedia" aria-label="Girl sitting on her couch with her iPad">
+			<section>
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-9 large-9 small-12 columns">
@@ -115,7 +89,7 @@
 				</div>
 			</section>
 
-			<section id="section2" class="section section-full" data-anchor="browsers" aria-label="Wikipedia with HTML code coming out of the page">
+			<section>
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-9 large-9 small-12 columns">
@@ -172,7 +146,7 @@
 				</div>
 			</section>
 
-			<section id="section3" class="section" data-anchor="request" aria-label="An iPad with Wikipedia open">
+			<section>
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-9 large-9 small-12 columns">
@@ -189,7 +163,7 @@
 
 
 
-			<section id="sectionend" class="section end-article">
+			<section class="dark-theme-footer end-article">
 				<div class="wrapper">
 					<div class="row">
 						<div class="medium-9 large-9 small-12 columns">
@@ -221,33 +195,5 @@
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/full.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$('#fullpage').fullpage({
-					anchors: ['','intro', 'wikipedia', 'browsers', 'request', 'internet', 'servers', 'end'],
-					menu: '#menu',
-					recordHistory: false
-				});
-			});
-			$(document).on('click', '.back', function(){
-			  $.fn.fullpage.moveSectionUp();
-			});
-			$(document).on('click', '.next', function(){
-			  $.fn.fullpage.moveSectionDown();
-			});
-			$(document).on('click', '#start', function(){
-			  $.fn.fullpage.moveSectionDown();
-			});
-		</script>
-		<!-- <script>
-			tippy('.tooltip', {
-				// arrow: true,
-			  arrowType: 'round',
-			  size: 'large',
-				duration: 500,
-			  animation: 'scale'
-			})
-		</script> -->
-
 </body>
 </html>
