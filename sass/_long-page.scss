@@ -7,14 +7,20 @@
     background-position: center;
 }
 
+.vh80, .vh100, .vh150 {
+  width: auto;
+}
+
+.vh80 {
+  height: 80vh;
+}
+
 .vh100 {
   height: 100vh;
-  width: auto;
 }
 
 .vh150 {
   height: 150vh;
-  width: auto;
 }
 
 .dark-theme-footer {
