@@ -4,6 +4,23 @@
   background-position: center!important;
 }
 
+.credit-article-dark {
+  color: $white;
+  font-size: .9rem;
+  margin-top: 40px;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    border-bottom: 1px solid $white;
+  }
+
+  a:hover {
+    color: $lightgrey;
+    border-bottom: 1px solid $lightgrey;
+  }
+}
+
 @media (max-width: 70em) {
 
   .section-full {
@@ -15,6 +32,9 @@
 }
 
 @media (max-width: 40em) {
+  .credit-article-dark {
+    font-size: .75rem;
+  }
 
   .section {
     background-size: cover;
