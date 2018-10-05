@@ -2,9 +2,9 @@
   color: $white;
 }
 
-.full-page-header {
+.full-page-image {
   background-size: cover;
-    background-position: center;
+  background-position: center;
 }
 
 .vh80, .vh100, .vh150 {
@@ -17,6 +17,10 @@
 
 .vh100 {
   height: 100vh;
+}
+
+.vh120 {
+  height: 120vh;
 }
 
 .vh150 {
