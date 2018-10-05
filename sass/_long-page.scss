@@ -7,8 +7,15 @@
   background-position: center;
 }
 
-.vh80, .vh100, .vh150 {
+.article-hero {
+  height: 100vh;
   width: auto;
+  margin-bottom: 6em;
+}
+
+.vh80, .vh100, .vh120, .vh150 {
+  width: auto;
+  margin: 6em 0;
 }
 
 .vh80 {
