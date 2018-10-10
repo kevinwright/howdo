@@ -10,6 +10,25 @@
   width: 100%;
 }
 
+.arrow-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.arrow-button {
+  background-color: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .card-content {
    display: flex;
    flex-direction: column;
