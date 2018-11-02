@@ -6,6 +6,7 @@
   background-position: center center;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .logo {
@@ -48,6 +49,27 @@
     width: 6vw;
   	overflow: hidden;
   }
+}
+
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 850px) and (orientation: landscape) {
+  .hero {
+    height: 100vh!important;
+  }
+
+  .stem {
+    .stem-item {
+      width: 10vw!important;
+    }
+  }
+
+  .logo {
+    img {
+      height: 50px;
+      width: auto;
+    }
+  }
+
 }
 
 @media (max-width: 900px) {
