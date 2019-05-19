@@ -5,6 +5,10 @@ footer {
   background-color: #DDD;
   color: $black;
 
+  .column-padding-right {
+    padding-right: 30px;
+  }
+
   a {
     color: $blue;
     text-decoration: none;
@@ -31,9 +35,13 @@ footer {
     color: $darkblue;
   }
 
-  p.copywrite {
-    padding-top: 1rem;
+  .copywrite {
+    margin-top: 1rem;
+  }
+
+  .copywrite p {
     font-size: .75rem;
+    line-height: 0.8;
   }
 }
 
@@ -50,7 +58,15 @@ footer {
 @media (max-width: 640px) {
 
   footer {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
+
+    .column-padding-right {
+      padding-right: 0;
+    }
+
+    .copywrite {
+      font-size: 0.65rem;
+    }
 
     .column-top-margin {
       margin-top: 20px;

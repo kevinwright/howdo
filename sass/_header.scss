@@ -1,32 +1,31 @@
 .hero {
-  background-color: $pink;
-  height: 70vh;
-  text-align: center;
-  background-size: cover;
-  background-position: center center;
+  // background-color: $pink;
+  // height: 70vh;
+  // text-align: center;
+  // background-size: cover;
+  // background-position: center center;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .logo {
   padding: 3.5rem 0 2rem 0;
 
   img {
-    height: 80px;
+    height: 70px;
     width: auto;
   }
 }
 
-.header-svg {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
+// .header-svg {
+// 	display: inline-block;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// }
 
 .intro {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   font-family: "aktiv-grotesk",sans-serif;
 
   p {
@@ -38,30 +37,30 @@
   }
 }
 
-.stem {
-  display: flex;
-  justify-content: center;
-
-  .stem-item {
-    margin: 0 1.5rem;
-  	position: relative;
-    height: 30vh;
-    width: 6vw;
-  	overflow: hidden;
-  }
-}
+// .stem {
+//   display: flex;
+//   justify-content: center;
+//
+//   .stem-item {
+//     margin: 0 1.5rem;
+//   	position: relative;
+//     height: 30vh;
+//     width: 6vw;
+//   	overflow: hidden;
+//   }
+// }
 
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 850px) and (orientation: landscape) {
-  .hero {
-    height: 100vh!important;
-  }
+  // .hero {
+  //   height: 100vh!important;
+  // }
 
-  .stem {
-    .stem-item {
-      width: 10vw!important;
-    }
-  }
+  // .stem {
+  //   .stem-item {
+  //     width: 10vw!important;
+  //   }
+  // }
 
   .logo {
     img {
@@ -72,40 +71,40 @@
 
 }
 
-@media (max-width: 900px) {
-  .stem {
-    .stem-item {
-      width: 10vw;
-      margin: 0 1.2rem;
-    }
-  }
-}
-
-@media (max-width: 700px) {
-  .stem {
-    .stem-item {
-      width: 9vw;
-      margin: 0 1.2rem;
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .stem {
-    .stem-item {
-      width: 15vw;
-      margin: 0 0.7rem;
-    }
-  }
-}
+// @media (max-width: 900px) {
+//   .stem {
+//     .stem-item {
+//       width: 10vw;
+//       margin: 0 1.2rem;
+//     }
+//   }
+// }
+//
+// @media (max-width: 700px) {
+//   .stem {
+//     .stem-item {
+//       width: 9vw;
+//       margin: 0 1.2rem;
+//     }
+//   }
+// }
+//
+// @media (max-width: 640px) {
+//   .stem {
+//     .stem-item {
+//       width: 15vw;
+//       margin: 0 0.7rem;
+//     }
+//   }
+// }
 
 
 
 @media (max-width: 53em) {
 
-  .animation {
-    width: 45vw;
-  }
+  // .animation {
+  //   width: 45vw;
+  // }
 
   .intro {
     padding-bottom: 2rem;
@@ -120,26 +119,26 @@
 
 @media (max-width: 40em) {
 
-  .hero {
-    align-items: center;
-    height: 60vh;
-  }
+  // .hero {
+  //   align-items: center;
+  //   height: 60vh;
+  // }
 
   .logo {
-    padding: 3rem 0 1rem 0;
+    padding: 1rem 0 0 0;
 
     img {
-      height: 60px;
+      height: 50px;
     }
 
   }
 
   .intro {
-    padding-bottom: 2rem;
+    padding-bottom: 0;
     padding-top: 1rem;
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
     }
   }
 }
