@@ -45,6 +45,20 @@ header, footer, .about {
       padding-right: 1rem;
     }
   }
+
+  .credit-basic {
+    align-items: flex-end;
+    margin: 4rem 0 1rem 0;
+    color: $darkgrey;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    li {
+      padding-right: 1rem;
+    }
+  }
 }
 
 @media (max-width: 45em) {
@@ -63,7 +77,11 @@ header, footer, .about {
     padding: 0.8rem 1.2rem;
   }
 
+
+
   .wrapper-header {
+    padding: .8rem 1.2rem;
+    
     .credit {
       font-size: 0.9rem;
       display: block;
